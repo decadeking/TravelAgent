@@ -1,0 +1,991 @@
+{
+  "成都": [
+    {
+      "name": "宽窄巷子",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.6,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "美食",
+        "免费"
+      ],
+      "note": "成都三大历史文化保护区之一，适合傍晚游览"
+    },
+    {
+      "name": "武侯祠",
+      "category": "culture",
+      "ticket": 50,
+      "duration_min": 120,
+      "rating": 4.5,
+      "open_time": "08:00-18:00",
+      "tags": [
+        "人文",
+        "历史"
+      ],
+      "note": "三国文化圣地，与锦里相邻"
+    },
+    {
+      "name": "锦里古街",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.4,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "美食",
+        "免费"
+      ],
+      "note": "夜景灯光漂亮，小吃集中"
+    },
+    {
+      "name": "大熊猫繁育研究基地",
+      "category": "nature",
+      "ticket": 55,
+      "duration_min": 180,
+      "rating": 4.8,
+      "open_time": "07:30-18:00",
+      "tags": [
+        "自然",
+        "亲子",
+        "必去"
+      ],
+      "note": "建议上午前往，熊猫更活跃"
+    },
+    {
+      "name": "杜甫草堂",
+      "category": "culture",
+      "ticket": 50,
+      "duration_min": 120,
+      "rating": 4.5,
+      "open_time": "08:00-18:30",
+      "tags": [
+        "人文",
+        "园林"
+      ],
+      "note": "诗意园林，环境清幽"
+    },
+    {
+      "name": "春熙路",
+      "category": "shopping",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.3,
+      "open_time": "全天开放",
+      "tags": [
+        "购物",
+        "美食",
+        "免费"
+      ],
+      "note": "成都最繁华商业街，IFS熊猫爬楼打卡"
+    },
+    {
+      "name": "青城山",
+      "category": "nature",
+      "ticket": 80,
+      "duration_min": 300,
+      "rating": 4.7,
+      "open_time": "08:00-17:00",
+      "tags": [
+        "自然",
+        "登山",
+        "道教"
+      ],
+      "note": "道教名山，前山后山可选，需要体力"
+    },
+    {
+      "name": "都江堰",
+      "category": "culture",
+      "ticket": 80,
+      "duration_min": 180,
+      "rating": 4.7,
+      "open_time": "08:00-18:00",
+      "tags": [
+        "人文",
+        "水利",
+        "亲子"
+      ],
+      "note": "两千年水利工程，与青城山同线"
+    }
+  ],
+  "北京": [
+    {
+      "name": "故宫博物院",
+      "category": "culture",
+      "ticket": 60,
+      "duration_min": 240,
+      "rating": 4.9,
+      "open_time": "08:30-17:00",
+      "tags": [
+        "人文",
+        "必去",
+        "历史"
+      ],
+      "note": "周一闭馆，需提前预约"
+    },
+    {
+      "name": "天安门广场",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 60,
+      "rating": 4.7,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费"
+      ],
+      "note": "需安检，看升旗需早起"
+    },
+    {
+      "name": "八达岭长城",
+      "category": "nature",
+      "ticket": 40,
+      "duration_min": 300,
+      "rating": 4.8,
+      "open_time": "07:30-17:30",
+      "tags": [
+        "自然",
+        "登山",
+        "必去"
+      ],
+      "note": "地势险要，注意体力，可乘缆车"
+    },
+    {
+      "name": "颐和园",
+      "category": "culture",
+      "ticket": 30,
+      "duration_min": 180,
+      "rating": 4.7,
+      "open_time": "06:30-18:00",
+      "tags": [
+        "人文",
+        "园林"
+      ],
+      "note": "皇家园林，昆明湖泛舟"
+    },
+    {
+      "name": "天坛公园",
+      "category": "culture",
+      "ticket": 15,
+      "duration_min": 120,
+      "rating": 4.6,
+      "open_time": "06:00-21:00",
+      "tags": [
+        "人文",
+        "园林"
+      ],
+      "note": "祈年殿是标志建筑"
+    },
+    {
+      "name": "南锣鼓巷",
+      "category": "food",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.3,
+      "open_time": "全天开放",
+      "tags": [
+        "美食",
+        "免费",
+        "胡同"
+      ],
+      "note": "老北京胡同，小吃文创"
+    },
+    {
+      "name": "什刹海",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.5,
+      "open_time": "全天开放",
+      "tags": [
+        "自然",
+        "免费",
+        "夜景"
+      ],
+      "note": "后海酒吧街，可坐三轮车游胡同"
+    },
+    {
+      "name": "798艺术区",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.4,
+      "open_time": "10:00-18:00",
+      "tags": [
+        "人文",
+        "免费",
+        "艺术"
+      ],
+      "note": "工业风艺术区，适合拍照"
+    }
+  ],
+  "上海": [
+    {
+      "name": "外滩",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.8,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费",
+        "夜景"
+      ],
+      "note": "万国建筑群，夜景为佳"
+    },
+    {
+      "name": "南京路步行街",
+      "category": "shopping",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.5,
+      "open_time": "全天开放",
+      "tags": [
+        "购物",
+        "免费"
+      ],
+      "note": "中华商业第一街，连通外滩"
+    },
+    {
+      "name": "东方明珠",
+      "category": "culture",
+      "ticket": 180,
+      "duration_min": 150,
+      "rating": 4.6,
+      "open_time": "09:00-21:00",
+      "tags": [
+        "人文",
+        "地标"
+      ],
+      "note": "陆家嘴地标，可俯瞰浦江"
+    },
+    {
+      "name": "豫园",
+      "category": "culture",
+      "ticket": 40,
+      "duration_min": 120,
+      "rating": 4.4,
+      "open_time": "08:45-16:45",
+      "tags": [
+        "人文",
+        "园林",
+        "美食"
+      ],
+      "note": "江南古典园林，城隍庙小吃"
+    },
+    {
+      "name": "田子坊",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.2,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费",
+        "文创"
+      ],
+      "note": "石库门里弄改造，文艺小店"
+    },
+    {
+      "name": "上海博物馆",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 180,
+      "rating": 4.7,
+      "open_time": "09:00-17:00",
+      "tags": [
+        "人文",
+        "免费",
+        "博物馆"
+      ],
+      "note": "周一闭馆，青铜器馆著名"
+    },
+    {
+      "name": "上海迪士尼乐园",
+      "category": "entertainment",
+      "ticket": 475,
+      "duration_min": 480,
+      "rating": 4.8,
+      "open_time": "08:30-20:30",
+      "tags": [
+        "亲子",
+        "娱乐"
+      ],
+      "note": "全天游玩，建议提前购票"
+    },
+    {
+      "name": "朱家角古镇",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 240,
+      "rating": 4.4,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费",
+        "水乡"
+      ],
+      "note": "上海近郊水乡，小桥流水"
+    }
+  ],
+  "杭州": [
+    {
+      "name": "西湖",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 240,
+      "rating": 4.9,
+      "open_time": "全天开放",
+      "tags": [
+        "自然",
+        "免费",
+        "必去"
+      ],
+      "note": "十景环绕，可骑行或游船"
+    },
+    {
+      "name": "灵隐寺",
+      "category": "culture",
+      "ticket": 75,
+      "duration_min": 150,
+      "rating": 4.7,
+      "open_time": "07:00-18:00",
+      "tags": [
+        "人文",
+        "寺庙"
+      ],
+      "note": "飞来峰造像，香火旺盛"
+    },
+    {
+      "name": "河坊街",
+      "category": "food",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.3,
+      "open_time": "全天开放",
+      "tags": [
+        "美食",
+        "免费",
+        "老街"
+      ],
+      "note": "南宋御街，杭帮小吃"
+    },
+    {
+      "name": "西溪湿地",
+      "category": "nature",
+      "ticket": 80,
+      "duration_min": 240,
+      "rating": 4.5,
+      "open_time": "08:00-17:30",
+      "tags": [
+        "自然",
+        "湿地"
+      ],
+      "note": "芦花飞雪，适合慢游"
+    },
+    {
+      "name": "雷峰塔",
+      "category": "culture",
+      "ticket": 40,
+      "duration_min": 90,
+      "rating": 4.5,
+      "open_time": "08:00-20:00",
+      "tags": [
+        "人文",
+        "地标"
+      ],
+      "note": "登塔俯瞰西湖全景"
+    },
+    {
+      "name": "宋城",
+      "category": "entertainment",
+      "ticket": 320,
+      "duration_min": 240,
+      "rating": 4.6,
+      "open_time": "09:00-21:00",
+      "tags": [
+        "娱乐",
+        "演出",
+        "亲子"
+      ],
+      "note": "《宋城千古情》演出"
+    },
+    {
+      "name": "龙井茶园",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.4,
+      "open_time": "全天开放",
+      "tags": [
+        "自然",
+        "免费",
+        "茶文化"
+      ],
+      "note": "龙井村品茶，满眼茶山"
+    },
+    {
+      "name": "千岛湖",
+      "category": "nature",
+      "ticket": 130,
+      "duration_min": 360,
+      "rating": 4.7,
+      "open_time": "08:00-17:00",
+      "tags": [
+        "自然",
+        "湖景"
+      ],
+      "note": "距市区较远，适合一日游"
+    }
+  ],
+  "西安": [
+    {
+      "name": "秦始皇兵马俑",
+      "category": "culture",
+      "ticket": 120,
+      "duration_min": 240,
+      "rating": 4.9,
+      "open_time": "08:30-18:00",
+      "tags": [
+        "人文",
+        "必去",
+        "历史"
+      ],
+      "note": "世界第八大奇迹，建议请讲解"
+    },
+    {
+      "name": "大雁塔",
+      "category": "culture",
+      "ticket": 50,
+      "duration_min": 120,
+      "rating": 4.6,
+      "open_time": "08:00-18:30",
+      "tags": [
+        "人文",
+        "地标"
+      ],
+      "note": "玄奘取经译经处，北广场音乐喷泉"
+    },
+    {
+      "name": "回民街",
+      "category": "food",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.3,
+      "open_time": "全天开放",
+      "tags": [
+        "美食",
+        "免费"
+      ],
+      "note": "肉夹馍、羊肉泡馍、biangbiang面"
+    },
+    {
+      "name": "西安城墙",
+      "category": "culture",
+      "ticket": 54,
+      "duration_min": 150,
+      "rating": 4.7,
+      "open_time": "08:00-22:00",
+      "tags": [
+        "人文",
+        "骑行"
+      ],
+      "note": "可租自行车环城，夜游灯光美"
+    },
+    {
+      "name": "华清宫",
+      "category": "culture",
+      "ticket": 120,
+      "duration_min": 180,
+      "rating": 4.5,
+      "open_time": "07:00-19:00",
+      "tags": [
+        "人文",
+        "温泉"
+      ],
+      "note": "与兵马俑同线，唐玄宗杨贵妃故事"
+    },
+    {
+      "name": "陕西历史博物馆",
+      "category": "museum",
+      "ticket": 0,
+      "duration_min": 180,
+      "rating": 4.8,
+      "open_time": "08:30-18:00",
+      "tags": [
+        "人文",
+        "免费",
+        "博物馆"
+      ],
+      "note": "周一闭馆，需提前预约，藏品丰富"
+    },
+    {
+      "name": "大唐不夜城",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.7,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费",
+        "夜景"
+      ],
+      "note": "盛唐主题步行街，夜景与演出精彩"
+    },
+    {
+      "name": "华山",
+      "category": "nature",
+      "ticket": 160,
+      "duration_min": 480,
+      "rating": 4.8,
+      "open_time": "07:00-19:00",
+      "tags": [
+        "自然",
+        "登山"
+      ],
+      "note": "五岳之险，需留一整天，恐高慎选"
+    }
+  ],
+  "厦门": [
+    {
+      "name": "鼓浪屿",
+      "category": "culture",
+      "ticket": 100,
+      "duration_min": 300,
+      "rating": 4.7,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "海岛",
+        "必去"
+      ],
+      "note": "需乘轮渡，万国建筑，钢琴之岛"
+    },
+    {
+      "name": "厦门大学",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.6,
+      "open_time": "12:00-14:00,17:00-18:00",
+      "tags": [
+        "人文",
+        "免费"
+      ],
+      "note": "最美校园，需预约，芙蓉隧道涂鸦"
+    },
+    {
+      "name": "南普陀寺",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.6,
+      "open_time": "05:30-18:00",
+      "tags": [
+        "人文",
+        "免费",
+        "寺庙"
+      ],
+      "note": "紧邻厦大，素斋有名"
+    },
+    {
+      "name": "曾厝垵",
+      "category": "food",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.2,
+      "open_time": "全天开放",
+      "tags": [
+        "美食",
+        "免费"
+      ],
+      "note": "文创渔村，海鲜小吃"
+    },
+    {
+      "name": "环岛路",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.6,
+      "open_time": "全天开放",
+      "tags": [
+        "自然",
+        "免费",
+        "骑行"
+      ],
+      "note": "沿海骑行道，沙滩海景"
+    },
+    {
+      "name": "胡里山炮台",
+      "category": "culture",
+      "ticket": 23,
+      "duration_min": 90,
+      "rating": 4.4,
+      "open_time": "07:30-17:30",
+      "tags": [
+        "人文",
+        "历史"
+      ],
+      "note": "清代海防炮台，海边红夷大炮"
+    },
+    {
+      "name": "中山路步行街",
+      "category": "shopping",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.3,
+      "open_time": "全天开放",
+      "tags": [
+        "购物",
+        "美食",
+        "免费"
+      ],
+      "note": "南洋骑楼建筑，闽南小吃"
+    },
+    {
+      "name": "集美学村",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.5,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费"
+      ],
+      "note": "嘉庚建筑，龙舟池"
+    }
+  ],
+  "重庆": [
+    {
+      "name": "洪崖洞",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.6,
+      "open_time": "全天开放（夜景最佳）",
+      "tags": [
+        "人文",
+        "夜景",
+        "免费"
+      ],
+      "note": "吊脚楼式建筑群，夜间灯光像千与千寻，建议傍晚前往"
+    },
+    {
+      "name": "解放碑",
+      "category": "shopping",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.4,
+      "open_time": "全天开放",
+      "tags": [
+        "购物",
+        "免费"
+      ],
+      "note": "重庆地标商圈，紧邻八一好吃街"
+    },
+    {
+      "name": "长江索道",
+      "category": "sightseeing",
+      "ticket": 30,
+      "duration_min": 40,
+      "rating": 4.5,
+      "open_time": "07:30-22:30",
+      "tags": [
+        "观光",
+        "体验"
+      ],
+      "note": "横跨长江的空中巴士，单程约 5 分钟，排队较久"
+    },
+    {
+      "name": "磁器口古镇",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.3,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "美食",
+        "免费"
+      ],
+      "note": "嘉陵江畔古镇，陈麻花与毛血旺聚集"
+    },
+    {
+      "name": "三峡博物馆",
+      "category": "museum",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.6,
+      "open_time": "09:00-17:00（周一闭馆）",
+      "tags": [
+        "博物馆",
+        "免费"
+      ],
+      "note": "需预约，了解三峡与重庆城市史的最佳去处"
+    },
+    {
+      "name": "南山一棵树",
+      "category": "nature",
+      "ticket": 30,
+      "duration_min": 90,
+      "rating": 4.5,
+      "open_time": "09:00-22:00",
+      "tags": [
+        "自然",
+        "夜景"
+      ],
+      "note": "俯瞰渝中半岛夜景的最佳观景台"
+    }
+  ],
+  "三亚": [
+    {
+      "name": "亚龙湾",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 180,
+      "rating": 4.7,
+      "open_time": "全天开放",
+      "tags": [
+        "自然",
+        "海边",
+        "免费"
+      ],
+      "note": "号称天下第一湾，沙质细白适合游泳"
+    },
+    {
+      "name": "蜈支洲岛",
+      "category": "nature",
+      "ticket": 144,
+      "duration_min": 300,
+      "rating": 4.7,
+      "open_time": "08:00-17:30",
+      "tags": [
+        "自然",
+        "海岛",
+        "潜水"
+      ],
+      "note": "需乘船上岛，水上项目丰富，建议留一整天"
+    },
+    {
+      "name": "天涯海角",
+      "category": "sightseeing",
+      "ticket": 68,
+      "duration_min": 120,
+      "rating": 4.2,
+      "open_time": "07:30-18:00",
+      "tags": [
+        "观光",
+        "海边"
+      ],
+      "note": "标志性石刻，适合拍照留念"
+    },
+    {
+      "name": "南山文化旅游区",
+      "category": "culture",
+      "ticket": 108,
+      "duration_min": 240,
+      "rating": 4.6,
+      "open_time": "08:00-17:30",
+      "tags": [
+        "人文",
+        "佛教"
+      ],
+      "note": "108 米海上观音像，园区大建议乘电瓶车"
+    },
+    {
+      "name": "第一市场",
+      "category": "food",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.3,
+      "open_time": "09:00-24:00",
+      "tags": [
+        "美食",
+        "免费"
+      ],
+      "note": "海鲜加工一条街，注意明码标价"
+    },
+    {
+      "name": "鹿回头公园",
+      "category": "nature",
+      "ticket": 42,
+      "duration_min": 90,
+      "rating": 4.4,
+      "open_time": "09:00-22:00",
+      "tags": [
+        "自然",
+        "夜景"
+      ],
+      "note": "俯瞰三亚湾与市区夜景"
+    }
+  ],
+  "丽江": [
+    {
+      "name": "丽江古城",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 240,
+      "rating": 4.6,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费"
+      ],
+      "note": "世界文化遗产，清晨人少适合拍照"
+    },
+    {
+      "name": "玉龙雪山",
+      "category": "nature",
+      "ticket": 100,
+      "duration_min": 300,
+      "rating": 4.7,
+      "open_time": "07:00-16:00",
+      "tags": [
+        "自然",
+        "雪山"
+      ],
+      "note": "海拔高需备氧气瓶，索道另收费，建议早出发"
+    },
+    {
+      "name": "束河古镇",
+      "category": "culture",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.4,
+      "open_time": "全天开放",
+      "tags": [
+        "人文",
+        "免费"
+      ],
+      "note": "比丽江古城安静，适合慢逛与喝茶"
+    },
+    {
+      "name": "拉市海",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 180,
+      "rating": 4.1,
+      "open_time": "08:00-18:00",
+      "tags": [
+        "自然",
+        "湿地"
+      ],
+      "note": "湿地观鸟与骑马，注意甄别低价团"
+    },
+    {
+      "name": "蓝月谷",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 120,
+      "rating": 4.6,
+      "open_time": "08:00-17:00",
+      "tags": [
+        "自然",
+        "湖泊"
+      ],
+      "note": "玉龙雪山脚下，湖水呈蓝绿色，含在雪山票内"
+    },
+    {
+      "name": "黑龙潭公园",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 90,
+      "rating": 4.3,
+      "open_time": "07:00-19:00",
+      "tags": [
+        "自然",
+        "免费"
+      ],
+      "note": "可拍雪山倒影"
+    }
+  ],
+  "桂林": [
+    {
+      "name": "漓江",
+      "category": "nature",
+      "ticket": 215,
+      "duration_min": 240,
+      "rating": 4.8,
+      "open_time": "08:00-14:00",
+      "tags": [
+        "自然",
+        "游船"
+      ],
+      "note": "桂林山水精华段，竹筏或游船，建议清晨出发"
+    },
+    {
+      "name": "象鼻山",
+      "category": "nature",
+      "ticket": 55,
+      "duration_min": 90,
+      "rating": 4.5,
+      "open_time": "06:30-19:30",
+      "tags": [
+        "自然",
+        "地标"
+      ],
+      "note": "桂林城徽，可远观或入园"
+    },
+    {
+      "name": "阳朔西街",
+      "category": "shopping",
+      "ticket": 0,
+      "duration_min": 180,
+      "rating": 4.4,
+      "open_time": "全天开放",
+      "tags": [
+        "购物",
+        "美食",
+        "免费"
+      ],
+      "note": "阳朔最热闹的老街，夜晚酒吧与小吃集中"
+    },
+    {
+      "name": "遇龙河",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 180,
+      "rating": 4.7,
+      "open_time": "08:00-17:00",
+      "tags": [
+        "自然",
+        "漂流"
+      ],
+      "note": "竹筏漂流比漓江更安静，田园风光"
+    },
+    {
+      "name": "十里画廊",
+      "category": "nature",
+      "ticket": 0,
+      "duration_min": 150,
+      "rating": 4.5,
+      "open_time": "全天开放",
+      "tags": [
+        "自然",
+        "骑行",
+        "免费"
+      ],
+      "note": "适合租自行车或电动车游览"
+    },
+    {
+      "name": "龙脊梯田",
+      "category": "nature",
+      "ticket": 80,
+      "duration_min": 360,
+      "rating": 4.7,
+      "open_time": "全天开放",
+      "tags": [
+        "自然",
+        "梯田"
+      ],
+      "note": "距市区较远，需单独安排一天，日出云海最佳"
+    }
+  ]
+}

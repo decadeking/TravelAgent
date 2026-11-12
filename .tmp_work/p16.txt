@@ -1,0 +1,80 @@
+P139  runs=2
+    r0 pict=True drawing=False rid=None text=''
+    r1 pict=False drawing=False rid=None text='普通用户模块分析：普通用户可以登录账号，使用该账号进行商品的浏览、搜索，查看商品的详细内容以及用户对它的评价，可以根据其'
+
+P158  runs=5
+    r0 pict=True drawing=False rid=None text=''
+    r1 pict=False drawing=False rid=None text='本系统的设计分为前端和后端两个方面：前端方面包括了游客的浏览、搜索、注册功能，普通用户的购物、评论、个人信息设置；后端方'
+    r2 pict=False drawing=False rid=None text='3'
+    r3 pict=False drawing=False rid=None text='.1所示'
+    r4 pict=False drawing=False rid=None text='。'
+
+P160  runs=9
+    r0 pict=True drawing=False rid=None text=''
+    r1 pict=False drawing=False rid=None text='根据普通用户的功能模块总结，'
+    r2 pict=False drawing=False rid=None text='总体'
+    r3 pict=False drawing=False rid=None text='流程图如图'
+    r4 pict=False drawing=False rid=None text='3'
+    r5 pict=False drawing=False rid=None text='.'
+    r6 pict=False drawing=False rid=None text='2'
+    r7 pict=False drawing=False rid=None text='所示'
+    r8 pict=False drawing=False rid=None text='。首先进入系统主页面后，游客可以浏览和搜索商品，但是要进行登录账号后才可以进行支付、评价、个人信息管理等功能。'
+
+P166  runs=6
+    r0 pict=True drawing=False rid=None text=''
+    r1 pict=False drawing=False rid=None text='图'
+    r2 pict=False drawing=False rid=None text='3.3'
+    r3 pict=False drawing=False rid=None text=' '
+    r4 pict=False drawing=False rid=None text='系统E-R'
+    r5 pict=False drawing=False rid=None text='图'
+
+P181  runs=1
+    r0 pict=True drawing=False rid=None text=''
+
+P191  runs=3
+    r0 pict=False drawing=False rid=None text='图'
+    r1 pict=False drawing=False rid=None text='4'
+    r2 pict=False drawing=False rid=None text='.1 系统主页面'
+
+P210  runs=1
+    r0 pict=False drawing=False rid=None text='图 4.3 发布招领信息页面截图'
+
+P211  runs=1
+    r0 pict=True drawing=False rid=None text=''
+
+P221  runs=1
+    r0 pict=False drawing=False rid=None text='4.2.3 留言与物品认领'
+
+P222  runs=1
+    r0 pict=False drawing=False rid=None text='物品详情页底部留言板块，登录用户可输入文字提交；匹配物品后点击发起认领按钮，发布人后台可查看认领申请，点击确认后物品状态'
+
+P223  runs=1
+    r0 pict=False drawing=False rid=None text='图 4.4 物品详情留言页面截图'
+
+P225  runs=2
+    r0 pict=True drawing=False rid=None text=''
+    r1 pict=False drawing=False rid=None text='后台经典三栏布局：左侧深色侧边栏 #304156，绿色高亮选中菜单；顶部管理员信息栏；右侧数据展示区。'
+
+P234  runs=1
+    r0 pict=False drawing=False rid=None text='4.3.1 信息审核管理'
+
+P235  runs=2
+    r0 pict=True drawing=False rid=None text=''
+    r1 pict=False drawing=False rid=None text='表格展示全部待审核物品信息，操作栏通过、驳回弹窗（填写驳回理由）；审核通过前台展示，驳回物品退回发布人个人中心。'
+
+P243  runs=1
+    r0 pict=False drawing=False rid=None text='图 4.5 管理员信息审核页面截图'
+
+P244  runs=1
+    r0 pict=False drawing=False rid=None text='4.3.2 黑名单与数据统计'
+
+P246  runs=1
+    r0 pict=True drawing=False rid=None text=''
+
+P254  runs=1
+    r0 pict=False drawing=False rid=None text='图 4.6 数据统计可视化大屏截图'
+
+P140  runs=3
+    r0 pict=False drawing=False rid=None text='图'
+    r1 pict=False drawing=False rid=None text='2'
+    r2 pict=False drawing=False rid=None text='.1 用户用例图'

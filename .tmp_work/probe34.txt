@@ -1,0 +1,50 @@
+=== P104
+<w:p w14:paraId="1150F148"><w:pPr><w:pStyle w:val="22"/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="468"/><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>在校师生丢失校园卡、手机、书本、衣物、证件是高校普遍现象。传统线下失物传递渠道存在明显短板：公告栏信息更新滞后、班级群消息容易被冲刷，丢失人与拾获人无法精准对接；同时缺少统一审核机制，虚假招领、恶意认领行为无法约束，多次虚假操作用户无管控渠道；物品丢失数据无统一统计，后勤无法掌握校园高频遗失物品类型与丢失地点。</w:t></w:r></w:p>
+
+=== P105
+<w:p w14:paraId="351BC921"><w:pPr><w:pStyle w:val="22"/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="468"/><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>随着高校数字化校园建设推进，基于 Web 的线上失物招领平台成为刚需。传统单体网页功能单一，缺少完整认领流程、失信黑名单、数据可视化模块，因此本文采用前后端分离技术，基于 SpringBoot+Vue 搭建完整闭环式校园失物招领系统，弥补现有平台功能短板。</w:t></w:r></w:p>
+
+=== P169
+<w:p w14:paraId="15F3F2A9"><w:pPr><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="468" w:firstLineChars="200"/><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>（1）用户信息表：id是主键，表示用户的编号。username是用户名，password是密码，role为用户角色，用户角色有管理员和普通用户两种，设置为1为普通用户，设置为3则为管理员。数据库表结构如表</w:t></w:r><w:r><w:rPr><w:rFonts w:hint="eastAsia"/><w:sz w:val="24"/></w:rPr><w:t>3</w:t></w:r><w:r><w:rPr><w:sz w:val="24"/></w:rPr><w:t>.1</w:t></w:r><w:r><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>所示。</w:t></w:r></w:p>
+
+=== P171
+<w:p w14:paraId="5B5F72A2"><w:pPr><w:spacing w:line="300" w:lineRule="auto"/><w:ind w:firstLine="3780" w:firstLineChars="1800"/><w:rPr><w:rFonts w:hint="eastAsia" w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>表</w:t></w:r><w:r><w:rPr><w:rFonts w:hint="eastAsia" w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>3</w:t></w:r><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>.</w:t></w:r><w:r><w:rPr><w:rFonts w:hint="eastAsia" w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>2</w:t></w:r><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r><w:r><w:rPr><w:rFonts w:hint="eastAsia" w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>物品发布</w:t></w:r><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>信息表</w:t></w:r></w:p>
+
+=== P191
+<w:p w14:paraId="7604019D"><w:pPr><w:widowControl/><w:spacing w:before="333" w:beforeLines="100" w:after="333" w:afterLines="100" w:line="440" w:lineRule="exact"/><w:jc w:val="center"/><w:outlineLvl w:val="0"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>图</w:t></w:r><w:r><w:rPr><w:rFonts w:hint="eastAsia" w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>4</w:t></w:r><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:snapToGrid w:val="0"/><w:kern w:val="0"/></w:rPr><w:t>.1 系统主页面</w:t></w:r></w:p>
+
+=== P196
+<w:p w14:paraId="66DF719A"><w:r><w:t>@PostMapping("/login")</w:t></w:r></w:p>
+
+=== P197
+<w:p w14:paraId="25FF90D0"><w:r><w:t>public Result login(String username,String password){</w:t></w:r></w:p>
+
+=== P208
+<w:p w14:paraId="0D7F462A"><w:pPr><w:spacing w:before="166" w:beforeLines="50" w:after="166" w:afterLines="50" w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>4.2.2 失物 / 招领信息发布</w:t></w:r></w:p>
+
+=== P209
+<w:p w14:paraId="038651F8"><w:pPr><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="480" w:firstLineChars="200"/><w:jc w:val="left"/><w:rPr><w:bCs/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:bCs/><w:sz w:val="24"/></w:rPr><w:t>居中表单，包含物品名称、类型、丢失地点、详细描述、多图上传组件；提交按钮绿色，表单全部非空校验，图片本地存储，提交后状态默认为 0（待审核）存入数据库。</w:t></w:r></w:p>
+
+=== P121
+<w:p w14:paraId="42FB342D"><w:pPr><w:widowControl/><w:spacing w:before="333" w:beforeLines="100" w:after="333" w:afterLines="100" w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="30"/><w:szCs w:val="30"/></w:rPr><w:t xml:space="preserve"> </w:t></w:r><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t xml:space="preserve">调研本校师生失物管理真实需求，梳理普通学生、管理员两类角色全部业务流程； </w:t></w:r></w:p>
+
+=== P122
+<w:p w14:paraId="4F982CEE"><w:pPr><w:widowControl/><w:spacing w:before="333" w:beforeLines="100" w:after="333" w:afterLines="100" w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t xml:space="preserve">选用 SpringBoot+Vue3+MyBatis-Plus+Redis 技术栈，搭建前后端分离架构，后端配置全局跨域； </w:t></w:r></w:p>
+
+=== P135
+<w:p w14:paraId="617D0639"><w:pPr><w:widowControl/><w:spacing w:before="166" w:beforeLines="50" w:after="166" w:afterLines="50" w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t xml:space="preserve">  游客：浏览首页物品、查看公告，无发布、留言、认领权限； </w:t></w:r></w:p>
+
+=== P144
+<w:p w14:paraId="7E0073F1"><w:pPr><w:widowControl/><w:spacing w:before="166" w:beforeLines="50" w:after="166" w:afterLines="50" w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:bookmarkStart w:id="1" w:name="_Toc30165"/><w:r><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t xml:space="preserve">  页面响应：正常网络下所有接口响应≤3 秒，首页缓存数据加载≤1 秒； </w:t></w:r></w:p>
+
+=== P153
+<w:p w14:paraId="7BDE64D7"><w:pPr><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="420"/><w:jc w:val="left"/><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t xml:space="preserve">  浏览器：适配 Chrome、Edge、360 主流 PC 浏览器； </w:t></w:r></w:p>
+
+=== P279
+<w:p w14:paraId="576017A5"><w:pPr><w:widowControl/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="2"/></w:numPr><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="468" w:firstLineChars="200"/><w:jc w:val="left"/><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>完成需求调研，划分学生、管理员两类角色，梳理八大核心业务模块，明确性能、安全、兼容三类非功能需求；</w:t></w:r></w:p>
+
+=== P308
+<w:p w14:paraId="3F4AF4AC"><w:pPr><w:autoSpaceDE w:val="0"/><w:autoSpaceDN w:val="0"/><w:adjustRightInd w:val="0"/><w:spacing w:before="156" w:beforeLines="50"/><w:jc w:val="left"/><w:rPr><w:kern w:val="0"/><w:szCs w:val="21"/></w:rPr></w:pPr><w:r><w:rPr><w:kern w:val="0"/><w:szCs w:val="21"/></w:rPr><w:t>[1] 李梦琪。基于 SpringBoot 的校园失物招领平台设计 [J]. 信息技术，2023 (08):112-116.</w:t></w:r></w:p>
+
+=== P325
+<w:p w14:paraId="3F9FBE17"><w:pPr><w:widowControl/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="482"/><w:jc w:val="left"/><w:rPr><w:color w:val="000000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="000000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>本次毕业设计《基于 SpringBoot+Vue 校园失物招领遗失管理系统》是在</w:t></w:r><w:r><w:rPr><w:rFonts w:hint="eastAsia"/><w:color w:val="000000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>实训</w:t></w:r><w:r><w:rPr><w:color w:val="000000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr><w:t>老师全程悉心指导下完成。从开题选题、文献查阅、系统需求分析，到框架搭建、代码开发、论文修改，老师都给出细致、专业的修改意见，及时指出系统设计与论文撰写存在的问题，帮助我理清开发思路，顺利完成全部设计工作。</w:t></w:r></w:p>

@@ -1,0 +1,74 @@
+# ============================================================
+# 生产形态编排：Nginx + 应用副本 + MySQL + Redis + pgvector
+#               + Jaeger + Prometheus + Grafana
+# 说明：本机默认用 SQLite/内存 KV 零依赖运行；此文件用于演示
+#       "真实微服务 + 负载均衡 + 可观测性"的生产形态。
+# 用法：docker compose -f deploy/docker-compose.yml up -d
+# ============================================================
+services:
+  nginx:
+    image: nginx:1.27-alpine
+    ports: ["80:80"]
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on: [gateway]
+    restart: unless-stopped
+
+  gateway:
+    build: { context: .., dockerfile: Dockerfile }
+    environment:
+      DATABASE_URL: mysql+aiomysql://travel:travel@mysql:3306/travel
+      KV_BACKEND: redis
+      REDIS_URL: redis://redis:6379/0
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+    deploy:
+      replicas: 2
+    depends_on: [mysql, redis]
+    restart: unless-stopped
+
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: travel
+      MYSQL_USER: travel
+      MYSQL_PASSWORD: travel
+    command: --default-authentication-plugin=caching_sha2_password --character-set-server=utf8mb4
+    volumes: [ "mysql-data:/var/lib/mysql" ]
+    ports: ["3306:3306"]
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    volumes: [ "redis-data:/data" ]
+    ports: ["6379:6379"]
+
+  # 向量检索（RAG 生产形态）：PostgreSQL + pgvector
+  pgvector:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: travelvec
+    volumes: [ "pg-data:/var/lib/postgresql/data" ]
+    ports: ["5432:5432"]
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.62
+    environment: [ "COLLECTOR_OTLP_ENABLED=true" ]
+    ports: ["16686:16686", "4317:4317"]
+
+  prometheus:
+    image: prom/prometheus:v2.55.0
+    volumes: [ "./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro" ]
+    ports: ["9090:9090"]
+
+  grafana:
+    image: grafana/grafana:11.3.0
+    ports: ["3000:3000"]
+    depends_on: [prometheus]
+
+volumes:
+  mysql-data:
+  redis-data:
+  pg-data:

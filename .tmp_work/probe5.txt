@@ -1,0 +1,62 @@
+﻿TBL0 rows=4 cols=4
+   tblPr: <w:tblPr><w:tblStyle w:val="12"/><w:tblW w:w="9071" w:type="dxa"/><w:jc w:val="center"/><w:tblBorders><w:top w:val="single" w:color="auto" w:sz="12" w:space="0"/><w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/><w:bottom w:val="single" w:color="auto" w:sz="12" w:space="0"/><w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/><w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/><w:insideV w:val="none" w:color="auto" w:sz="0" w:space="0"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblCellMar><w:top w:w="113" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:bottom w:w="
+   row0: ['序号', '名称', '别名', '类型']
+   row1: ['1', 'id', '编号', 'int']
+   row2: ['2', 'username', '用户名', 'varchar']
+   row3: ['3', 'password', '密码', 'varchar']
+TBL1 rows=4 cols=4
+   tblPr: <w:tblPr><w:tblStyle w:val="12"/><w:tblW w:w="9071" w:type="dxa"/><w:jc w:val="center"/><w:tblBorders><w:top w:val="single" w:color="auto" w:sz="12" w:space="0"/><w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/><w:bottom w:val="single" w:color="auto" w:sz="12" w:space="0"/><w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/><w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/><w:insideV w:val="none" w:color="auto" w:sz="0" w:space="0"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblCellMar><w:top w:w="113" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:bottom w:w="
+   row0: ['序号', '名称', '别名', '类型']
+   row1: ['1', 'id', '物品编号', 'int']
+   row2: ['2', 'user_id', '发布人id', 'int']
+   row3: ['3', 'type', '信息类型', 'int']
+TBL2 rows=4 cols=2
+   tblPr: <w:tblPr><w:tblStyle w:val="12"/><w:tblW w:w="8522" w:type="dxa"/><w:tblInd w:w="0" w:type="dxa"/><w:tblBorders><w:top w:val="none" w:color="000000" w:sz="0" w:space="0"/><w:left w:val="none" w:color="000000" w:sz="0" w:space="0"/><w:bottom w:val="none" w:color="000000" w:sz="0" w:space="0"/><w:right w:val="none" w:color="000000" w:sz="0" w:space="0"/><w:insideH w:val="none" w:color="000000" w:sz="0" w:space="0"/><w:insideV w:val="none" w:color="000000" w:sz="0" w:space="0"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblCellMar><w:top w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:
+   row0: ['测试标题', '（对输入+输出进行简要描述，']
+   row1: ['前置条件操作步骤', '系统已存在一些商品\n（这部分']
+   row2: ['输入数据', '（对应操作步骤中要输入的具体']
+   row3: ['预期结果\n实际结果', '成功进入采购进货界面，各按钮']
+TBL3 rows=2 cols=5
+   tblPr: <w:tblPr><w:tblStyle w:val="12"/><w:tblW w:w="9606" w:type="dxa"/><w:tblInd w:w="0" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:color="auto" w:sz="12" w:space="0"/><w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/><w:bottom w:val="single" w:color="auto" w:sz="12" w:space="0"/><w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/><w:insideH w:val="none" w:color="auto" w:sz="0" w:space="0"/><w:insideV w:val="none" w:color="auto" w:sz="0" w:space="0"/></w:tblBorders><w:tblLayout w:type="autofit"/><w:tblCellMar><w:top w:w="0" w:type="dxa"/><w:left w:w="108" w:type="dxa"/><w:bo
+   row0: ['', '', '', '', '']
+   row1: ['', '', '', '', '']
+
+=== pict shapes ===
+P139 r0 shape style='position:absolute;left:0pt;margin-left:92.5pt;margin-top:141.05pt;height:190.65pt;width:266.15pt;mso-position-horizontal-relative:margin;mso-wrap-distance-bottom:0pt;mso-wrap-distance-top:0pt;z-index:251666432;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId11
+P158 r0 shape style='position:absolute;left:0pt;margin-top:67.6pt;height:203.6pt;width:517.25pt;mso-position-horizontal:center;mso-position-horizontal-relative:margin;mso-wrap-distance-bottom:0pt;mso-wrap-distance-top:0pt;z-index:251667456;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId12
+P160 r0 shape style='position:absolute;left:0pt;margin-top:66.65pt;height:541.1pt;width:271.65pt;mso-position-horizontal:center;mso-position-horizontal-relative:margin;mso-wrap-distance-bottom:0pt;mso-wrap-distance-top:0pt;z-index:251669504;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId13
+P166 r0 shape style='position:absolute;left:0pt;margin-left:0pt;margin-top:19.45pt;height:208.35pt;width:453.5pt;mso-wrap-distance-bottom:0pt;mso-wrap-distance-top:0pt;z-index:251668480;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId14
+P181 r0 shape style='position:absolute;left:0pt;margin-left:2.65pt;margin-top:17.7pt;height:276.4pt;width:453.15pt;z-index:-251657216;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId15
+P211 r0 shape style='position:absolute;left:0pt;margin-left:0.15pt;margin-top:7.95pt;height:270.85pt;width:336.6pt;z-index:-251656192;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId16
+P225 r0 shape style='position:absolute;left:0pt;margin-left:5.5pt;margin-top:48.9pt;height:224.85pt;width:324.2pt;z-index:-251654144;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId17
+P235 r0 shape style='position:absolute;left:0pt;margin-left:0.05pt;margin-top:49.95pt;height:200.15pt;width:331.45pt;z-index:-251655168;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId18
+P246 r0 shape style='position:absolute;left:0pt;margin-left:4.05pt;margin-top:9.15pt;height:210.4pt;width:339.25pt;z-index:-251653120;mso-width-relative:page;mso-height-relative:page;'
+     imagedata r:id=rId19
+
+=== P269 P270 P271 P272 P259 P261 P262 P264 P268 ===
+P259 nrun=1 <w:pPr><w:widowControl/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="468" w:firstLineChars="200"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:color w:val="FF0000"/><w:kern w:val="0"/><w:szCs w:val="21"/></w:rPr></w:pPr>
+     text='系统开发完成后存在逻辑漏洞、交互异常、权限越权等潜在问题，通过黑盒功能测试遍历全部模块，验证每一项需求功能能否正常执行，'
+P261 nrun=2 <w:pPr><w:widowControl/><w:spacing w:before="166" w:beforeLines="50" w:after="166" w:afterLines="50" w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+     text='5.2.1  进货管理模块的测试'
+P262 nrun=2 <w:pPr><w:pStyle w:val="5"/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:left="615"/><w:rPr><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+     text='1、采购进货-新增老商品测试'
+P264 nrun=15 <w:pPr><w:pStyle w:val="5"/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:left="116" w:right="107" w:firstLine="480"/><w:rPr><w:spacing w:val="-3"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+     text='在进货管理模块的功能测试中，需验证采购商品添加的完整流程。用户使用正确的账号密码登录进销存管理系统后，点击 “进货管理 '
+P268 nrun=3 <w:pPr><w:pStyle w:val="5"/><w:spacing w:before="181" w:line="220" w:lineRule="auto"/><w:ind w:left="3068"/><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="SimHei" w:cs="Times New Roman"/><w:spacing w:val="7"/><w:kern w:val="0"/><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+     text='表 5.1  新增老商品测试'
+P269 nrun=0 <w:pPr><w:spacing w:line="67" w:lineRule="exact"/></w:pPr>
+     text=''
+P270 nrun=4 <w:pPr><w:widowControl/><w:spacing w:before="333" w:beforeLines="100" w:after="333" w:afterLines="100" w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="30"/><w:szCs w:val="30"/></w:rPr></w:pPr>
+     text='5.3 测试结论'
+P271 nrun=1 <w:pPr><w:widowControl/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="480" w:firstLineChars="200"/><w:jc w:val="left"/><w:rPr><w:color w:val="000000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+     text='本次共设计 24 条功能测试用例，覆盖学生前台、管理员后台全部八大模块，核心业务功能通过率 100%。系统登录鉴权、跨域'
+P272 nrun=1 <w:pPr><w:widowControl/><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="480" w:firstLineChars="200"/><w:jc w:val="left"/><w:rPr><w:color w:val="000000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+     text='测试中发现少量页面文字排版、分页显示小问题，已全部修复；系统响应速度、并发访问满足性能需求，整体功能完整，达到毕业设计预'

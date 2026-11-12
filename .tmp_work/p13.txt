@@ -1,0 +1,936 @@
+=== P102 ===
+p [paraId=2C940092]
+  pPr
+    widowControl
+    spacing [before=333 beforeLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=36]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      bCs
+      color [val=FF0000]
+      spacing [val=-20]
+      kern [val=0]
+      szCs [val=16]
+    t '（另一页）'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=36]
+    t '第1章 绪论'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      bCs
+      color [val=FF0000]
+      kern [val=0]
+      szCs [val=21]
+    t '（'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      color [val=FF0000]
+      spacing [val=-11]
+      kern [val=0]
+      szCs [val=21]
+    t '一级标题，第X章 黑体，小二，固定值22，段前1行段后0行，居中）'
+
+=== P103 ===
+p [paraId=4D9CE36D]
+  pPr
+    spacing [before=333 beforeLines=100 after=333 afterLines=100 line=440 lineRule=exact]
+    jc [val=left]
+    rPr
+      rFonts [eastAsia=SimHei]
+      color [val=000000]
+      kern [val=0]
+      sz [val=30]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=30]
+      szCs [val=30]
+    t '1.1 系统开发背景'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      color [val=FF0000]
+      kern [val=0]
+      szCs [val=21]
+    t '（二级标题，黑体，小三，固定值22，顶头，段前段后各1行）'
+
+=== P104 ===
+p [paraId=1150F148]
+  pPr
+    pStyle [val=22]
+    spacing [line=440 lineRule=exact]
+    ind [firstLine=468]
+    rPr
+      rFonts [ascii=Times New Roman hAnsi=Times New Roman]
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [ascii=Times New Roman hAnsi=Times New Roman]
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '在校师生丢失校园卡、手机、书本、衣物、证件是高校普遍现象。传统线下失物传递渠道存在明显短板：公告栏信息更新滞后、班级群消息容易被冲刷，丢失人与拾获人无法精准对接；同时缺少统一审核机制，虚假招领、恶意认领行为无法约束，多次虚假操作用户无管控渠道；物品丢失数据无统一统计，后勤无法掌握校园高频遗失物品类型与丢失地点。'
+
+=== P121 ===
+p [paraId=42FB342D]
+  pPr
+    widowControl
+    spacing [before=333 beforeLines=100 after=333 afterLines=100 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=30]
+      szCs [val=30]
+    t [space=preserve] ' '
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t [space=preserve] '调研本校师生失物管理真实需求，梳理普通学生、管理员两类角色全部业务流程； '
+
+=== P134 ===
+p [paraId=68F37AC2]
+  pPr
+    spacing [line=440 lineRule=exact]
+    ind [firstLine=420]
+    jc [val=left]
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [hint=eastAsia]
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '1'
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '、面向普通用户的功能需求'
+  r
+    rPr
+      rFonts [hint=eastAsia]
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '。'
+
+=== P135 ===
+p [paraId=617D0639]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t [space=preserve] '  游客：浏览首页物品、查看公告，无发布、留言、认领权限； '
+
+=== P140 ===
+p [paraId=26879716]
+  pPr
+    widowControl
+    spacing [line=400 lineRule=exact]
+    jc [val=center]
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t '图'
+  r
+    rPr
+      rFonts [hint=eastAsia eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t '2'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t '.1 用户用例图'
+
+=== P169 ===
+p [paraId=15F3F2A9]
+  pPr
+    spacing [line=440 lineRule=exact]
+    ind [firstLine=468 firstLineChars=200]
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '（1）用户信息表：id是主键，表示用户的编号。username是用户名，password是密码，role为用户角色，用户角色有管理员和普通用户两种，设置为1为普通用户，设置为3则为管理员。数据库表结构如表'
+  r
+    rPr
+      rFonts [hint=eastAsia]
+      sz [val=24]
+    t '3'
+  r
+    rPr
+      sz [val=24]
+    t '.1'
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '所示。'
+
+=== P170 ===
+p [paraId=1E31A5B9]
+  pPr
+    spacing [line=300 lineRule=auto]
+    ind [firstLine=420 firstLineChars=200]
+    jc [val=center]
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t '表'
+  r
+    rPr
+      rFonts [hint=eastAsia eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t '3'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t '.'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    fldChar [fldCharType=begin]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    instrText [space=preserve]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    fldChar [fldCharType=separate]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t '1'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    fldChar [fldCharType=end]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+    t [space=preserve] ' 用户信息表'
+
+=== P196 ===
+p [paraId=66DF719A]
+  r
+    t '@PostMapping("/login")'
+
+=== P197 ===
+p [paraId=25FF90D0]
+  r
+    t 'public Result login(String username,String password){'
+
+=== P299 ===
+p [paraId=411C45FB]
+  pPr
+    numPr
+      ilvl [val=0]
+      numId [val=3]
+    tabs
+      tab [val=left pos=0]
+      tab [val=clear pos=360]
+    spacing [before=156 beforeLines=50]
+    ind [left=340 hanging=340]
+    jc [val=left]
+    rPr
+      kern [val=0]
+      szCs [val=21]
+  r
+    rPr
+      kern [val=0]
+      szCs [val=21]
+    t '黎作武, 贺德馨. 风能工程中流体力学问题的研究现状与进展[J]. 力学进展, 2013, 43(5): 472-525'
+
+=== P33 ===
+p [paraId=7901D34A]
+  pPr
+    widowControl
+    tabs
+      tab [val=right leader=dot pos=9030]
+    spacing [line=440 lineRule=exact]
+    rPr
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      bCs
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=24]
+    t '摘要'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    tab
+  r
+    rPr
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=24]
+    t 'Ⅰ'
+
+=== P34 ===
+p [paraId=79E1CCE4]
+  pPr
+    widowControl
+    tabs
+      tab [val=right leader=dot pos=9030]
+    spacing [line=440 lineRule=exact]
+    rPr
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      kern [val=0]
+      sz [val=24]
+    t 'Abstract'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    tab
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t 'Ⅱ'
+
+=== P35 ===
+p [paraId=69864B3C]
+  pPr
+    widowControl
+    tabs
+      tab [val=right leader=dot pos=9030]
+    spacing [line=440 lineRule=exact]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '第1章 绪论'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      bCs
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    tab
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '1'
+
+=== P36 ===
+p [paraId=7F4969B8]
+  pPr
+    widowControl
+    tabs
+      tab [val=right leader=dot pos=9030]
+    spacing [line=440 lineRule=exact]
+    ind [firstLine=480 firstLineChars=200]
+    outlineLvl [val=0]
+    rPr
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=24]
+    t '1.1'
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t [space=preserve] ' 系统开发背景'
+  r
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    tab
+  r
+    rPr
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=24]
+    t '1'
+
+=== P38 ===
+p [paraId=48C5548D]
+  pPr
+    widowControl
+    tabs
+      tab [val=right leader=dot pos=9030]
+    spacing [line=440 lineRule=exact]
+    ind [left=1263 leftChars=350 hanging=528 hangingChars=220]
+    outlineLvl [val=0]
+    rPr
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t '1.'
+  r
+    rPr
+      rFonts [hint=eastAsia]
+      kern [val=0]
+      sz [val=24]
+    t '2'
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t '.1 国内研究现状'
+  r
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    tab
+  r
+    rPr
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=24]
+    t '2'
+
+=== P208 ===
+p [paraId=0D7F462A]
+  pPr
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '4.2.2 失物 / 招领信息发布'
+
+=== P221 ===
+p [paraId=799297A0]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '4.2.3 留言与物品认领'
+
+=== P224 ===
+p [paraId=3FBB04AE]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '4.3 管理员后台功能实现'
+
+=== P234 ===
+p [paraId=359732E6]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '4.3.1 信息审核管理'
+
+=== P244 ===
+p [paraId=7D402769]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '4.3.2 黑名单与数据统计'
+
+=== P261 ===
+p [paraId=14C240D2]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [hint=eastAsia eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '5.2'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '.1  进货管理模块的测试'
+
+=== P262 ===
+p [paraId=2CB5E7DE]
+  pPr
+    pStyle [val=5]
+    spacing [line=440 lineRule=exact]
+    ind [left=615]
+    rPr
+      lang [eastAsia=zh-CN]
+  r
+    rPr
+      rFonts [hint=eastAsia]
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '1、'
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '采购进货-新增老商品测试'
+
+=== P268 ===
+p [paraId=36E44182]
+  pPr
+    pStyle [val=5]
+    spacing [before=181 line=220 lineRule=auto]
+    ind [left=3068]
+    rPr
+      rFonts [ascii=Times New Roman hAnsi=Times New Roman eastAsia=SimHei cs=Times New Roman]
+      spacing [val=7]
+      kern [val=0]
+      sz [val=21]
+      szCs [val=21]
+      lang [eastAsia=zh-CN]
+  r
+    rPr
+      rFonts [ascii=Times New Roman hAnsi=Times New Roman eastAsia=SimHei cs=Times New Roman]
+      spacing [val=7]
+      kern [val=0]
+      sz [val=21]
+      szCs [val=21]
+      lang [eastAsia=zh-CN]
+    t '表 5.'
+  r
+    rPr
+      rFonts [hint=eastAsia ascii=Times New Roman hAnsi=Times New Roman eastAsia=SimHei cs=Times New Roman]
+      spacing [val=7]
+      kern [val=0]
+      sz [val=21]
+      szCs [val=21]
+      lang [eastAsia=zh-CN]
+    t '1'
+  r
+    rPr
+      rFonts [ascii=Times New Roman hAnsi=Times New Roman eastAsia=SimHei cs=Times New Roman]
+      spacing [val=7]
+      kern [val=0]
+      sz [val=21]
+      szCs [val=21]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] '  新增老商品测试'
+
+=== P277 ===
+p [paraId=17634212]
+  pPr
+    widowControl
+    spacing [before=333 beforeLines=100 after=333 afterLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=18]
+  r
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    br [type=page]
+  r
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '（另起一页）'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '结  论'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      color [val=FF0000]
+      kern [val=0]
+      szCs [val=21]
+    t '（ 黑体，小二，固定值22，段前1 段后1行，居中）'
+
+=== P297 ===
+p [paraId=65993058]
+  pPr
+    widowControl
+    spacing [before=312 beforeLines=100 after=312 afterLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      rFonts [eastAsia=SimHei]
+      snapToGrid [val=0]
+      kern [val=0]
+      sz [val=36]
+  r
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '（另起一页）'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+    t '参考文献'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      color [val=FF0000]
+      kern [val=0]
+      szCs [val=21]
+    t '（ 黑体，小二，固定值22，段前1行 段后1行，居中）'
+
+=== P331 ===
+p [paraId=6AD4F89B]
+  pPr
+    widowControl
+    spacing [line=400 lineRule=exact]
+    ind [right=360 firstLine=7200 firstLineChars=3000]
+    rPr
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t 'XXX'
+
+=== P333 ===
+p [paraId=0513DD9A]
+  pPr
+    widowControl
+    spacing [line=400 lineRule=exact]
+    ind [right=360 firstLine=6960 firstLineChars=2900]
+    rPr
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t 'XX年XX月'
+
+=== P257 ===
+p [paraId=017C8667]
+  pPr
+    spacing [before=333 beforeLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    br [type=page]
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    br [type=page]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '第'
+  r
+    rPr
+      rFonts [hint=eastAsia eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '5'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '章 系统测试'
+
+=== P155 ===
+p [paraId=717C5E8D]
+  pPr
+    spacing [line=440 lineRule=exact]
+    ind [firstLine=420]
+    jc [val=left]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '\uf0b7  后端：Windows、Mac、Linux 均可部署运行。'
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    br [type=page]
+  r
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '（另起一页）'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '第'
+  r
+    rPr
+      rFonts [hint=eastAsia eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '3'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '章 系统设计'
+
+=== P127 ===
+p [paraId=317B9B1D]
+  pPr
+    spacing [before=333 beforeLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    br [type=page]
+  r
+    rPr
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '（另起一页）'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t '第2章 系统分析'
+
+=== P73 ===
+p [paraId=618508BA]
+  pPr
+    widowControl
+    spacing [before=333 beforeLines=100 after=333 afterLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      rFonts [eastAsia=SimHei]
+      bCs
+      color [val=FF0000]
+      kern [val=0]
+      szCs [val=16]
+    sectPr
+      headerReference [id=rId3 type=default]
+      footerReference [id=rId4 type=default]
+      pgSz [w=11906 h=16838]
+      pgMar [top=1417 right=1417 bottom=1417 left=1417 header=851 footer=992 gutter=0]
+      pgNumType [fmt=lowerRoman start=1]
+      cols [space=720 num=1]
+      docGrid [type=lines linePitch=333 charSpace=0]
+
+=== P32 ===
+p [paraId=7F11152A]
+  pPr
+    widowControl
+    spacing [before=333 beforeLines=100 after=333 afterLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      bCs
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=18]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      kern [val=0]
+      sz [val=36]
+    t '目  录'

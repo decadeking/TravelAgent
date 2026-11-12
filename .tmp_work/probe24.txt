@@ -1,0 +1,25 @@
+<w:pict>
+      <v:shape id="_x0000_s2050" o:spid="_x0000_s2050" o:spt="202" type="#_x0000_t202" style="position:absolute;left:0pt;margin-left:115.5pt;margin-top:2.6pt;height:97.95pt;width:123.15pt;z-index:251665408;mso-width-relative:page;mso-height-relative:page;" filled="f" stroked="f" coordsize="21600,21600" o:allowincell="f">
+        <v:path/>
+        <v:fill on="f" focussize="0,0"/>
+        <v:stroke on="f"/>
+        <v:imagedata o:title=""/>
+        <o:lock v:ext="edit"/>
+        <v:textbox>
+          <w:txbxContent>
+            <w:p w14:paraId="3A876EEC">
+              <w:pPr>
+                <w:widowControl/>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                  <w:kern w:val="0"/>
+                  <w:sz w:val="24"/>
+                </w:rPr>
+              </w:pPr>
+            </w:p>
+          </w:txbxContent>
+        </v:textbox>
+      </v:shape>
+    </w:pict>
+  </w:r>
+</w:p>

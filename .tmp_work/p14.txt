@@ -1,0 +1,521 @@
+==================== P75 ====================
+p [paraId=1184D31B]
+  pPr
+    widowControl
+    spacing [line=440 lineRule=exact]
+    jc [val=left]
+    rPr
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '摘要：'
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '针对当前高校物品丢失依靠班级群、线下公告栏传播，信息零散、无审核流程、认领无记录、缺少失信管控等痛点，本文设计并实现一套基于 SpringBoot+Vue 的校园失物招领遗失管理系统。系统采用前后端分离架构，后端整合 MyBatis-Plus、Redis 缓存，前端使用 Vue3+Element Plus 开发，区分普通学生、校园管理员两类角色。学生可在线发布寻物、招领信息，留言咨询并发起物品认领；管理员负责信息审核、失信黑名单管理、校园公告发布、遗失数据可视化统计。系统实现信息发布、审核、留言、认领、失信管控、数据统计全业务闭环，简化校园遗失物品管理流程，提升师生寻物匹配效率。测试结果表明系统响应稳定、功能完整，可满足高校日常失物管理需求。'
+
+==================== P76 ====================
+p [paraId=253142C0]
+  pPr
+    widowControl
+    spacing [line=440 lineRule=exact]
+    jc [val=left]
+    rPr
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      kern [val=0]
+      sz [val=24]
+    t '关键词：'
+  r
+    rPr
+      sz [val=24]
+    t [space=preserve] ' SpringBoot；Vue；校园失物招领；MyBatis-Plus；'
+
+==================== P79 ====================
+p [paraId=47B524FE]
+  pPr
+    widowControl
+    spacing [before=333 beforeLines=100 after=333 afterLines=100 line=440 lineRule=exact]
+    jc [val=center]
+    rPr
+      b
+      kern [val=0]
+      sz [val=44]
+  r
+    rPr
+      b
+      bCs
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    br [type=page]
+  r
+    rPr
+      b
+      bCs
+      color [val=FF0000]
+      kern [val=0]
+      szCs [val=21]
+    t '（另一页）'
+  r
+    rPr
+      b
+      bCs
+      kern [val=0]
+      sz [val=36]
+      szCs [val=36]
+    t 'The Design of XXXX'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '（'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=28]
+      szCs [val=28]
+    t '题目英文，'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=28]
+      szCs [val=28]
+    t [space=preserve] ' '
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '居中、Times New Roman、小二号、加粗、固定值22，段前段后各1行，'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      sz [val=24]
+    t '可写2行'
+  r
+    rPr
+      bCs
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '，'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      sz [val=24]
+    t '使用软回车Shift+回车 换行'
+  r
+    rPr
+      bCs
+      snapToGrid [val=0]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=18]
+    t '）'
+
+==================== P80 ====================
+p [paraId=3FE55FF0]
+  pPr
+    widowControl
+    spacing [line=440 lineRule=exact]
+    jc [val=left]
+    rPr
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      b
+      kern [val=0]
+      sz [val=24]
+    t 'Abstract：'
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t '（'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t 'Abstract这个词用'
+  r
+    rPr
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t 'Times New Roman，顶头，小四，'
+  r
+    rPr
+      b
+      bCs
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '加粗，正文用Times New Roman，小四，行距22磅'
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t '）'
+  r
+    rPr
+      color [val=000000]
+      kern [val=0]
+      sz [val=24]
+    t 'Aiming at the pain points of information fragmentation, lack of audit process, unrecorded claim and lack of dishonesty control when lost items in colleges are spread through class groups and offline bulletin boards, this paper designs and implements a campus lost and found management system based on SpringBoot and Vue. The system adopts front-end and back-end separation architecture, the back-end integrates MyBatis-Plus and Redis cache, and the front-end is developed with Vue3 and Element Plus, distinguishing two roles: ordinary students and campus administrators. Students can publish lost and found information online, leave messages for consultation and initiate item claims; administrators are responsible for information review, dishonesty blacklist management, campus announcement release and visual statistics of lost data. The system realizes a full business closed loop of information release, review, message, claim, dishonesty control and data statistics, simplifies the management process of lost items on campus, and improves the matching efficiency of teachers and students looking for lost items. The test results show that the system has stable response and complete functions, which can meet the daily lost management needs of colleges.'
+
+==================== P81 ====================
+p [paraId=0B0DB9C3]
+  pPr
+    spacing [line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      b
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      b
+      kern [val=0]
+      sz [val=24]
+    t 'Keywords:'
+  r
+    rPr
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '（Key words：'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '这个词用'
+  r
+    rPr
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t 'Times New Roman，小四，加粗，顶头，与'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t 'Abstract'
+  r
+    rPr
+      rFonts [eastAsia=SimHei]
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '：内容空1行，'
+  r
+    rPr
+      b
+      color [val=FF0000]
+      kern [val=0]
+      sz [val=24]
+    t '正文用Times New Roman，小四，行距22磅）'
+  r
+    rPr
+      kern [val=0]
+      sz [val=24]
+    t 'Keywords: SpringBoot; Vue; Campus Lost and Found; MyBatis-Plus;'
+
+==================== P137 ====================
+p [paraId=58FBD6D2]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t [space=preserve] '  校园管理员：审核所有待发布信息（通过 / 驳回并填写理由）；管理失信黑名单（拉黑 / 解除拉黑）；新增、编辑、删除校园公告；查看 ECharts 遗失数据统计；查看全平台用户发布记录。'
+
+==================== P144 ====================
+p [paraId=7E0073F1]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+  bookmarkStart [id=1 name=_Toc30165]
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t [space=preserve] '\uf0b7  页面响应：正常网络下所有接口响应≤3 秒，首页缓存数据加载≤1 秒； '
+
+==================== P146 ====================
+p [paraId=347F5852]
+  pPr
+    widowControl
+    spacing [before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact]
+    jc [val=left]
+    outlineLvl [val=0]
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      spacing [val=-3]
+      kern [val=0]
+      sz [val=24]
+    t '\uf0b7  图片加载：单张物品图片 2M 以内，多图上传无卡顿。'
+
+==================== P264 ====================
+p [paraId=07950499]
+  pPr
+    pStyle [val=5]
+    spacing [line=440 lineRule=exact]
+    ind [left=116 right=107 firstLine=480]
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '在进货管理模块的功能测试中，需验证采购商品添加的完整流程'
+  r
+    rPr
+      spacing [val=-4]
+      lang [eastAsia=zh-CN]
+    t '。用户使用'
+  r
+    rPr
+      spacing [val=-1]
+      lang [eastAsia=zh-CN]
+    t '正确的账号密码登录进销存管理系统后，点'
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '击'
+  r
+    rPr
+      spacing [val=-31]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '“进货管理'
+  r
+    rPr
+      spacing [val=-88]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '”'
+  r
+    rPr
+      spacing [val=-58]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '进入该模块操作界'
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '面，随后点击 “采购进货'
+  r
+    rPr
+      spacing [val=-81]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '”'
+  r
+    rPr
+      spacing [val=-38]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '按钮，系统将加载采购进货页面。'
+
+==================== P265 ====================
+p [paraId=66F15DCD]
+  pPr
+    pStyle [val=5]
+    spacing [line=440 lineRule=exact]
+    ind [left=116 right=107 firstLine=480]
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '在进货管理模块的功能测试中，需验证采购商品添加的完整流程'
+  r
+    rPr
+      spacing [val=-4]
+      lang [eastAsia=zh-CN]
+    t '。用户使用'
+  r
+    rPr
+      spacing [val=-1]
+      lang [eastAsia=zh-CN]
+    t '正确的账号密码登录进销存管理系统后，点'
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '击'
+  r
+    rPr
+      spacing [val=-31]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '“进货管理'
+  r
+    rPr
+      spacing [val=-88]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '”'
+  r
+    rPr
+      spacing [val=-58]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-2]
+      lang [eastAsia=zh-CN]
+    t '进入该模块操作界'
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '面，随后点击 “采购进货'
+  r
+    rPr
+      spacing [val=-81]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '”'
+  r
+    rPr
+      spacing [val=-38]
+      lang [eastAsia=zh-CN]
+    t [space=preserve] ' '
+  r
+    rPr
+      spacing [val=-3]
+      lang [eastAsia=zh-CN]
+    t '按钮，系统将加载采购进货页面。'
+
+==================== P271 ====================
+p [paraId=22E8B3FB]
+  pPr
+    widowControl
+    spacing [line=440 lineRule=exact]
+    ind [firstLine=480 firstLineChars=200]
+    jc [val=left]
+    rPr
+      color [val=000000]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      color [val=000000]
+      kern [val=0]
+      sz [val=24]
+    t '本次共设计 24 条功能测试用例，覆盖学生前台、管理员后台全部八大模块，核心业务功能通过率 100%。系统登录鉴权、跨域请求、图片上传、状态流转、Redis 缓存、ECharts 图表均可正常运行；黑名单拦截、角色权限隔离生效，无越权访问漏洞。'
+
+==================== P272 ====================
+p [paraId=09D7F384]
+  pPr
+    widowControl
+    spacing [line=440 lineRule=exact]
+    ind [firstLine=480 firstLineChars=200]
+    jc [val=left]
+    rPr
+      color [val=000000]
+      kern [val=0]
+      sz [val=24]
+  r
+    rPr
+      color [val=000000]
+      kern [val=0]
+      sz [val=24]
+    t '测试中发现少量页面文字排版、分页显示小问题，已全部修复；系统响应速度、并发访问满足性能需求，整体功能完整，达到毕业设计预期开发目标，可正式投入校园模拟使用。'

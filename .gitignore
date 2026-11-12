@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.db
+backend/travelagent.db
+backend/test_travelagent.db
+.env
+.pytest_cache/
+.mypy_cache/
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+.DS_Store
+.idea/
+.vscode/

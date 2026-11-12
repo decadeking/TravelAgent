@@ -1,0 +1,59 @@
+========== P181
+<w:p xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:wpsCustomData="http://www.wps.cn/officeDocument/2013/wpsCustomData" w14:paraId="4A388136">
+  <w:pPr>
+    <w:tabs>
+      <w:tab w:val="left" w:pos="565"/>
+    </w:tabs>
+    <w:spacing w:line="440" w:lineRule="exact"/>
+    <w:ind w:firstLine="480" w:firstLineChars="200"/>
+    <w:rPr>
+      <w:bCs/>
+      <w:sz w:val="24"/>
+    </w:rPr>
+  </w:pPr>
+  <w:r>
+    <w:rPr>
+      <w:bCs/>
+      <w:sz w:val="24"/>
+      <w:lang/>
+    </w:rPr>
+    <w:pict>
+      <v:shape id="图片 1" o:spid="_x0000_s2062" o:spt="75" type="#_x0000_t75" style="position:absolute;left:0pt;margin-left:2.65pt;margin-top:17.7pt;height:276.4pt;width:453.15pt;z-index:-251657216;mso-width-relative:page;mso-height-relative:page;" filled="f" stroked="f" coordsize="21600,21600" o:allowoverlap="f">
+        <v:path/>
+        <v:fill on="f" focussize="0,0"/>
+        <v:stroke on="f"/>
+        <v:imagedata r:id="rId15" o:title=""/>
+        <o:lock v:ext="edit" grouping="f" aspectratio="t"/>
+      </v:shape>
+    </w:pict>
+  </w:r>
+</w:p>
+
+========== P211
+<w:p xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:wpsCustomData="http://www.wps.cn/officeDocument/2013/wpsCustomData" w14:paraId="72FE4664">
+  <w:pPr>
+    <w:widowControl/>
+    <w:spacing w:before="166" w:beforeLines="50" w:after="166" w:afterLines="50" w:line="440" w:lineRule="exact"/>
+    <w:jc w:val="left"/>
+    <w:outlineLvl w:val="0"/>
+    <w:rPr>
+      <w:rFonts w:eastAsia="SimHei"/>
+      <w:kern w:val="0"/>
+      <w:sz w:val="24"/>
+    </w:rPr>
+  </w:pPr>
+  <w:r>
+    <w:rPr>
+      <w:lang/>
+    </w:rPr>
+    <w:pict>
+      <v:shape id="_x0000_s2063" o:spid="_x0000_s2063" o:spt="75" type="#_x0000_t75" style="position:absolute;left:0pt;margin-left:0.15pt;margin-top:7.95pt;height:270.85pt;width:336.6pt;z-index:-251656192;mso-width-relative:page;mso-height-relative:page;" filled="f" stroked="f" coordsize="21600,21600">
+        <v:path/>
+        <v:fill on="f" focussize="0,0"/>
+        <v:stroke on="f"/>
+        <v:imagedata r:id="rId16" o:title=""/>
+        <o:lock v:ext="edit" grouping="f" aspectratio="t"/>
+      </v:shape>
+    </w:pict>
+  </w:r>
+</w:p>

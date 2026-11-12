@@ -1,0 +1,129 @@
+<mxfile host="Electron" agent="draw.io">
+  <diagram id="03-系统业务流程图" name="03-系统业务流程图">
+    <mxGraphModel dx="2257" dy="1569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;开始&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="486" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="p_login" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;登录 / 注册账号&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="200" x="466" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="p_input" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;输入旅行需求&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="200" x="470" y="231" as="geometry" />
+        </mxCell>
+        <mxCell id="d_slot" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;目的地、天数等信息&lt;br&gt;是否完整？&lt;/font&gt;" vertex="1">
+          <mxGeometry height="105" width="327" x="402.5" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="p_clarify" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;智能体反问补全信息&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="112" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="p_retrieve" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;检索知识库并调用&lt;br&gt;天气 / 景点 / 路线 / 预算工具&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="430" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="p_gen" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;生成按天行程&lt;br&gt;流式输出&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="450" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="p_preview" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;右侧实时预览行程&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="200" x="460" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="d_satisfy" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;用户是否满意？&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="446" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="p_revise" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;多轮对话修订&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="750" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="p_save" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;保存为行程&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="200" x="456" y="951" as="geometry" />
+        </mxCell>
+        <mxCell id="d_date" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;是否填写&lt;br&gt;出发日期？&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="446" y="1037" as="geometry" />
+        </mxCell>
+        <mxCell id="p_remind" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;创建行程提醒&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="180" x="750" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="p_notify" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;写入站内通知&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="200" x="450" y="1191" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;结束&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="466" y="1306" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="start" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="p_login" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_input" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="p_input" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="d_slot" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" source="d_slot" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_clarify" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;否&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" source="d_slot" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_retrieve" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;是&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" source="p_retrieve" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_gen" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" edge="1" parent="1" source="p_gen" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_preview" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" edge="1" parent="1" source="p_preview" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="d_satisfy" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" edge="1" parent="1" source="d_satisfy" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_revise" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;否&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.0058" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a12" edge="1" parent="1" source="d_satisfy" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_save" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;是&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a13" edge="1" parent="1" source="p_save" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="d_date" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a14" edge="1" parent="1" source="d_date" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_remind" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;是&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a16" edge="1" parent="1" source="d_date" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="p_notify" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;否&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a17" edge="1" parent="1" source="p_notify" style="endArrow=block;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;labelBackgroundColor=#FFFFFF;" target="end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yslSXrA8P2-xObbDetf-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.5969" as="geometry">
+            <Array as="points">
+              <mxPoint x="215.56" y="260" />
+            </Array>
+            <mxPoint x="215.56" y="357.82" as="sourcePoint" />
+            <mxPoint x="470" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yslSXrA8P2-xObbDetf-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1709" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="774.68" />
+              <mxPoint x="828" y="645.94" />
+            </Array>
+            <mxPoint x="828" y="819" as="sourcePoint" />
+            <mxPoint x="674.03" y="645.94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yslSXrA8P2-xObbDetf-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="p_notify" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="844.15" y="1218.5" />
+            </Array>
+            <mxPoint x="844.15" y="1108.01" as="sourcePoint" />
+            <mxPoint x="906" y="1151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

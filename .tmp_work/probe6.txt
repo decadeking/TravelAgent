@@ -1,0 +1,130 @@
+﻿instrText count = 2
+  instr:  SEQ 表_3- \* ARABIC 
+fldChar count = 6
+hyperlink count = 0
+
+=== P5 nrun=5
+    pPr: <w:pPr><w:tabs><w:tab w:val="left" w:pos="8460"/></w:tabs><w:spacing w:line="600" w:lineRule="auto"/><w:ind w:firstLine="643" w:firstLineChars="200"/><w:rPr><w:rFonts w:hint="default" w:ascii="SimHei" w:eastAsia="SimHei"/><w:sz w:val="32"/><w:u w:val="single"/><w:lang w:val="en-US" w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='题 目：'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:b/><w:sz w:val="32"/><w:szCs w:val="32"/></w:rPr>
+  r1 col=None kids=['rPr', 't'] text=' '
+       rPr: <w:rPr><w:rFonts w:hint="eastAsia" w:eastAsia="SimHei"/><w:b/><w:sz w:val="32"/><w:szCs w:val="32"/></w:rPr>
+  r2 col=None kids=['rPr', 't'] text='基于FastAPI和Vue3的智能旅行规划'
+  r3 col=None kids=['rPr', 't'] text='  '
+  r4 col=None kids=['rPr', 't'] text='      '
+
+=== P6 nrun=1
+    pPr: <w:pPr><w:tabs><w:tab w:val="left" w:pos="8460"/></w:tabs><w:spacing w:line="600" w:lineRule="auto"/><w:ind w:firstLine="1920" w:firstLineChars="600"/><w:rPr><w:rFonts w:hint="default" w:ascii="SimHei" w:eastAsia="SimHei"/><w:sz w:val="32"/><w:u w:val="single"/><w:lang w:val="en-US" w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='系统的设计与实现                         '
+       rPr: <w:rPr><w:rFonts w:hint="eastAsia" w:ascii="SimHei" w:eastAsia="SimHei"/><w:sz w:val="32"/><w:u w:val="single"/><w:lang w:val="en-US" w:eastAsia="zh-CN"/></w:rPr>
+
+=== P12 nrun=4
+    pPr: <w:pPr><w:spacing w:line="720" w:lineRule="exact"/><w:ind w:left="1844" w:leftChars="300" w:right="584" w:rightChars="278" w:hanging="1214" w:hangingChars="378"/><w:rPr><w:rFonts w:eastAsia="KaiTi_GB2312"/><w:sz w:val="32"/><w:u w:val="single"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='完成日期：'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:b/><w:bCs/><w:sz w:val="32"/></w:rPr>
+  r1 col=None kids=['rPr', 't'] text='                                   '
+       rPr: <w:rPr><w:rFonts w:eastAsia="KaiTi_GB2312"/><w:sz w:val="32"/><w:u w:val="single"/></w:rPr>
+  r2 col=None kids=['rPr', 't'] text=' '
+  r3 col=None kids=['rPr', 't'] text='   '
+
+=== P32 nrun=1
+    pPr: <w:pPr><w:widowControl/><w:spacing w:before="333" w:beforeLines="100" w:after="333" w:afterLines="100" w:line="440" w:lineRule="exact"/><w:jc w:val="center"/><w:rPr><w:bCs/><w:snapToGrid w:val="0"/><w:color w:val="FF0000"/><w:kern w:val="0"/><w:sz w:val="18"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='目  录'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:b/><w:kern w:val="0"/><w:sz w:val="36"/></w:rPr>
+
+=== P33 nrun=3
+    pPr: <w:pPr><w:widowControl/><w:tabs><w:tab w:val="right" w:leader="dot" w:pos="9030"/></w:tabs><w:spacing w:line="440" w:lineRule="exact"/><w:rPr><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='摘要'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:bCs/><w:snapToGrid w:val="0"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r1 col=FF0000 kids=['rPr', 'tab'] text='\t'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:b/><w:color w:val="FF0000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r2 col=None kids=['rPr', 't'] text='Ⅰ'
+
+=== P36 nrun=4
+    pPr: <w:pPr><w:widowControl/><w:tabs><w:tab w:val="right" w:leader="dot" w:pos="9030"/></w:tabs><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:firstLine="480" w:firstLineChars="200"/><w:outlineLvl w:val="0"/><w:rPr><w:snapToGrid w:val="0"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='1.1'
+       rPr: <w:rPr><w:snapToGrid w:val="0"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r1 col=None kids=['rPr', 't'] text=' 系统开发背景'
+       rPr: <w:rPr><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r2 col=FF0000 kids=['rPr', 'tab'] text='\t'
+  r3 col=None kids=['rPr', 't'] text='1'
+
+=== P38 nrun=5
+    pPr: <w:pPr><w:widowControl/><w:tabs><w:tab w:val="right" w:leader="dot" w:pos="9030"/></w:tabs><w:spacing w:line="440" w:lineRule="exact"/><w:ind w:left="1263" w:leftChars="350" w:hanging="528" w:hangingChars="220"/><w:outlineLvl w:val="0"/><w:rPr><w:snapToGrid w:val="0"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='1.'
+       rPr: <w:rPr><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r1 col=None kids=['rPr', 't'] text='2'
+       rPr: <w:rPr><w:rFonts w:hint="eastAsia"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r2 col=None kids=['rPr', 't'] text='.1 国内研究现状'
+  r3 col=FF0000 kids=['rPr', 'tab'] text='\t'
+  r4 col=None kids=['rPr', 't'] text='2'
+
+=== P74 nrun=1
+    pPr: <w:pPr><w:widowControl/><w:spacing w:before="333" w:beforeLines="100" w:after="333" w:afterLines="100" w:line="440" w:lineRule="exact"/><w:jc w:val="center"/><w:rPr><w:rFonts w:eastAsia="SimHei"/><w:b/><w:kern w:val="0"/><w:sz w:val="36"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='课题名称'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:b/><w:kern w:val="0"/><w:sz w:val="36"/></w:rPr>
+
+=== P75 nrun=2
+    pPr: <w:pPr><w:widowControl/><w:spacing w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:rPr><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='摘要：'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r1 col=None kids=['rPr', 't'] text='针对当前高校物品丢失依靠班级群、线下公告栏传播，信息零散、无审核流程、认领无记录、缺少失信管控等痛点，本文设计并实现一套基于 SpringB'
+       rPr: <w:rPr><w:spacing w:val="-3"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+
+=== P76 nrun=2
+    pPr: <w:pPr><w:widowControl/><w:spacing w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:rPr><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='关键词：'
+       rPr: <w:rPr><w:rFonts w:eastAsia="SimHei"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r1 col=None kids=['rPr', 't'] text=' SpringBoot；Vue；校园失物招领；MyBatis-Plus；'
+       rPr: <w:rPr><w:sz w:val="24"/></w:rPr>
+
+=== P79 nrun=11
+    pPr: <w:pPr><w:widowControl/><w:spacing w:before="333" w:beforeLines="100" w:after="333" w:afterLines="100" w:line="440" w:lineRule="exact"/><w:jc w:val="center"/><w:rPr><w:b/><w:kern w:val="0"/><w:sz w:val="44"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 'br'] text=''
+       rPr: <w:rPr><w:b/><w:bCs/><w:kern w:val="0"/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr>
+  r1 col=FF0000 kids=['rPr', 't'] text='（另一页）'
+       rPr: <w:rPr><w:b/><w:bCs/><w:color w:val="FF0000"/><w:kern w:val="0"/><w:szCs w:val="21"/></w:rPr>
+  r2 col=None kids=['rPr', 't'] text='The Design of XXXX'
+  r3 col=FF0000 kids=['rPr', 't'] text='（'
+  r4 col=FF0000 kids=['rPr', 't'] text='题目英文，'
+  r5 col=FF0000 kids=['rPr', 't'] text=' '
+  r6 col=FF0000 kids=['rPr', 't'] text='居中、Times New Roman、小二号、加粗、固定值22，段前段后各1行，'
+  r7 col=FF0000 kids=['rPr', 't'] text='可写2行'
+  r8 col=FF0000 kids=['rPr', 't'] text='，'
+  r9 col=FF0000 kids=['rPr', 't'] text='使用软回车Shift+回车 换行'
+  r10 col=FF0000 kids=['rPr', 't'] text='）'
+
+=== P80 nrun=7
+    pPr: <w:pPr><w:widowControl/><w:spacing w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:rPr><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='Abstract：'
+       rPr: <w:rPr><w:b/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r1 col=None kids=['rPr', 't'] text='（'
+       rPr: <w:rPr><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r2 col=FF0000 kids=['rPr', 't'] text='Abstract这个词用'
+  r3 col=FF0000 kids=['rPr', 't'] text='Times New Roman，顶头，小四，'
+  r4 col=FF0000 kids=['rPr', 't'] text='加粗，正文用Times New Roman，小四，行距22磅'
+  r5 col=None kids=['rPr', 't'] text='）'
+  r6 col=000000 kids=['rPr', 't'] text='Aiming at the pain points of information fragmentation, lack of audit '
+
+=== P81 nrun=8
+    pPr: <w:pPr><w:spacing w:line="440" w:lineRule="exact"/><w:jc w:val="left"/><w:outlineLvl w:val="0"/><w:rPr><w:b/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='Keywords:'
+       rPr: <w:rPr><w:b/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r1 col=FF0000 kids=['rPr', 't'] text='（Key words：'
+       rPr: <w:rPr><w:b/><w:color w:val="FF0000"/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr>
+  r2 col=FF0000 kids=['rPr', 't'] text='这个词用'
+  r3 col=FF0000 kids=['rPr', 't'] text='Times New Roman，小四，加粗，顶头，与'
+  r4 col=FF0000 kids=['rPr', 't'] text='Abstract'
+  r5 col=FF0000 kids=['rPr', 't'] text='：内容空1行，'
+  r6 col=FF0000 kids=['rPr', 't'] text='正文用Times New Roman，小四，行距22磅）'
+  r7 col=None kids=['rPr', 't'] text='Keywords: SpringBoot; Vue; Campus Lost and Found; MyBatis-Plus;'
+
+=== P299 nrun=1
+    pPr: <w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr><w:tabs><w:tab w:val="left" w:pos="0"/><w:tab w:val="clear" w:pos="360"/></w:tabs><w:spacing w:before="156" w:beforeLines="50"/><w:ind w:left="340" w:hanging="340"/><w:jc w:val="left"/><w:rPr><w:kern w:val="0"/><w:szCs w:val="21"/></w:rPr></w:pPr>
+  r0 col=None kids=['rPr', 't'] text='黎作武, 贺德馨. 风能工程中流体力学问题的研究现状与进展[J]. 力学进展, 2013, 43(5): 472-525'
+       rPr: <w:rPr><w:kern w:val="0"/><w:szCs w:val="21"/></w:rPr>
+
+=== headers ===
+word/header1.xml ['XXXXXXXXXXXXX', '（', '毕业设计', '题目）']
+word/header2.xml ['XXXXXXXXXXXXX', '（', '毕业设计', '题目）', '（', '宋体五号居中，数字字母使用罗马体', '）']
+word/header3.xml ['XXXXXXXXXXXXX', '（', '毕业设计', '题目）', '（', '宋体五号居中，数字字母使用罗马体', '）']

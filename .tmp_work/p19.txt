@@ -1,0 +1,112 @@
+P103  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left  runs=2[30/SimHei /SimHei]
+      '1.1 系统开发背景（二级标题，黑体，小三，固定值22，顶头，段前段后各1行）'
+P107  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=3[30/SimHei 30/SimHei 30/SimHei]
+      '1.2 国内外研究现状'
+P110  sp[before=120,after=120,line=440,lineRule=exact] jc=left olvl=0  runs=3[24/SimHei 24/SimHei 24/SimHei]
+      '1.2.2 国外研究现状'
+P113  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=3[30/SimHei 30/SimHei 30/SimHei]
+      '1.3 系统的研究意义'
+P114  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '（1）实践意义'
+P117  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '（2）学习意义'
+P120  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=3[30/SimHei 30/SimHei 30/SimHei]
+      '1.4 系统研究的主要内容'
+P121  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=2[30/SimHei 24/SimHei]
+      ' 调研本校师生失物管理真实需求，梳理普通学生、管理员两类角色全部业务流程； '
+P122  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '选用 SpringBoot+Vue3+MyBatis-Plus+Redis 技术栈，搭建前后端分离架构，后端配置全局跨域； '
+P123  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      ' 完成系统整体功能模块划分，绘制功能结构图、业务流程图、数据库 E-R 图； '
+P124  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '  设计用户、物品发布、留言、认领、黑名单、公告六张核心数据表； '
+P125  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '  开发前台学生页面、管理员后台管理页面，实现发布、审核、认领、黑名单、统计、公告全部功能； '
+P126  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '  编写功能测试用例，完成系统功能测试，修复 Bug 保证系统稳定运行。'
+P129  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=2[30/SimHei /SimHei]
+      '2.1 系统功能分析（二级标题，黑体，小三，固定值22，顶头，段前段后各1行）'
+P132  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left  runs=7[24/SimHei 24/SimHei 24/SimHei 20/SimHei /SimHei 20/SimHei 20/]
+      '2.1.1 功能需求（三级标题，黑体，小四，固定值22，顶头，段前段后0.5行）'
+P133  sp[line=440,lineRule=exact] ind[firstLine=420] jc=left  runs=2[24/ 24/]
+      '根据对汉服市场的分析研究，对汉服商城系统设计不同的角色，包括管理员、普通用户和游客。管理员负责对系统中的数据进行管理，能对不同用户的权限进行'
+P138  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=5[24/SimHei 24/SimHei 24/SimHei 24/SimHei 24/SimHei]
+      '2.1.2 普通用户模块分析'
+P142  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=4[30/SimHei 30/SimHei 30/SimHei /SimHei]
+      '2.2 系统非功能性分析（二级标题，黑体，小三，固定值22，顶头，段前段后各1行）'
+P143  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '2.2.1 性能需求'
+P147  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '2.2.2 安全性需求'
+P152  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '2.2.3 兼容性需求'
+P157  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=3[30/SimHei 30/SimHei /SimHei]
+      '3.1 系统功能模块设计（二级标题，黑体，小三，固定值22，顶头，段前段后各1行）'
+P159  sp[line=440,lineRule=exact] jc=center olvl=0  runs=3[/SimHei /SimHei /SimHei]
+      '图3.1 总体功能模块图'
+P161  sp[line=300,lineRule=auto] ind[firstLine=408,firstLineChars=200] jc=center  runs=3[/SimHei /SimHei /SimHei]
+      '图3.2 游客和普通用户功能模块图'
+P162  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=2[30/SimHei 30/SimHei]
+      '3.2 系统数据库设计'
+P163  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left  runs=6[24/SimHei 24/SimHei 20/SimHei /SimHei 20/SimHei 20/]
+      '3.2.1 据库概念模型设计（三级标题，黑体，小四，固定值22，顶头，段前段后0.5行）'
+P167  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=2[24/SimHei 24/SimHei]
+      '3.2.2 数据库表设计'
+P168  sp[line=440,lineRule=exact] ind[firstLine=468,firstLineChars=200]  runs=1[24/]
+      '根据系统总体设计可以确定本项目的基本表有：用户信息表、商品分类表、商品标签表、用户评论表、商品信息表、订单表、地址表、公告通知表、操作日志表'
+P169  sp[line=440,lineRule=exact] ind[firstLine=468,firstLineChars=200]  runs=4[24/ 24/ 24/ 24/]
+      '（1）用户信息表：id是主键，表示用户的编号。username是用户名，password是密码，role为用户角色，用户角色有管理员和普通用'
+P170  sp[line=300,lineRule=auto] ind[firstLine=420,firstLineChars=200] jc=center  runs=9[/SimHei /SimHei /SimHei /SimHei /SimHei /SimHei /SimHei /SimHei /SimHei]
+      '表3.1 用户信息表'
+P171  sp[line=300,lineRule=auto] ind[firstLine=3780,firstLineChars=1800]  runs=7[/SimHei /SimHei /SimHei /SimHei /SimHei /SimHei /SimHei]
+      '表3.2 物品发布信息表'
+P179  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left  runs=2[30/SimHei /SimHei]
+      '4.1 系统主界面（二级标题，黑体，小三，固定值22，顶头，段前段后各1行）'
+P180  sp[line=440,lineRule=exact] ind[firstLine=480,firstLineChars=200]  runs=4[24/ 24/ 24/ 24/]
+      '前台主色调 #67C23A 绿色，Element Plus 组件搭建，页面分为顶部导航、公告滚动、物品分类筛选、物品卡片列表、底部版权。导航'
+P192  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=2[30/SimHei 30/SimHei]
+      '4.2 用户功能实现'
+P193  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left  runs=6[24/SimHei 24/SimHei 20/SimHei /SimHei 20/SimHei 20/]
+      '4.2.1 用户登陆（三级标题，黑体，小四，固定值22，顶头，段前段后0.5行）'
+P194  sp[line=440,lineRule=exact] ind[firstLine=480,firstLineChars=200] jc=left  runs=2[24/ 24/]
+      '在进入系统主页面后，游客可以浏览商品和搜索商品，但是要进行购买商品、查看...'
+P208  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left  runs=1[24/SimHei]
+      '4.2.2 失物 / 招领信息发布'
+P209  sp[line=440,lineRule=exact] ind[firstLine=480,firstLineChars=200] jc=left  runs=1[24/]
+      '居中表单，包含物品名称、类型、丢失地点、详细描述、多图上传组件；提交按钮绿色，表单全部非空校验，图片本地存储，提交后状态默认为 0（待审核）'
+P221  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '4.2.3 留言与物品认领'
+P222  sp[line=440,lineRule=exact] ind[firstLine=480,firstLineChars=200] jc=left  runs=1[24/]
+      '物品详情页底部留言板块，登录用户可输入文字提交；匹配物品后点击发起认领按钮，发布人后台可查看认领申请，点击确认后物品状态修改为 3 已完结。'
+P224  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '4.3 管理员后台功能实现'
+P234  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '4.3.1 信息审核管理'
+P244  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=1[24/SimHei]
+      '4.3.2 黑名单与数据统计'
+P258  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=2[30/SimHei 30/SimHei]
+      '5.1 测试的目的'
+P259  sp[line=440,lineRule=exact] ind[firstLine=468,firstLineChars=200] jc=left olvl=0  runs=1[24/]
+      '系统开发完成后存在逻辑漏洞、交互异常、权限越权等潜在问题，通过黑盒功能测试遍历全部模块，验证每一项需求功能能否正常执行，修复报错，保证上线后'
+P260  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=2[30/SimHei 30/SimHei]
+      '5.2 测试的内容'
+P261  sp[before=166,beforeLines=50,after=166,afterLines=50,line=440,lineRule=exact] jc=left olvl=0  runs=2[24/SimHei 24/SimHei]
+      '5.2.1  进货管理模块的测试'
+P262  style=5 sp[line=440,lineRule=exact] ind[left=615]  runs=2[/ /]
+      '1、采购进货-新增老商品测试'
+P270  sp[before=333,beforeLines=100,after=333,afterLines=100,line=440,lineRule=exact] jc=left olvl=0  runs=4[30/SimHei 30/SimHei 30/SimHei 30/SimHei]
+      '5.3 测试结论'
+P278  sp[line=440,lineRule=exact] ind[firstLine=468,firstLineChars=200] jc=left  runs=1[24/]
+      '本课题围绕高校校园遗失物品管理痛点，完成基于 SpringBoot+Vue 校园失物招领遗失管理系统完整设计与开发，整体工作总结如下：'
+P279  sp[line=440,lineRule=exact] ind[firstLine=468,firstLineChars=200] jc=left numPr  runs=1[24/]
+      '完成需求调研，划分学生、管理员两类角色，梳理八大核心业务模块，明确性能、安全、兼容三类非功能需求；'
+P284  sp[line=440,lineRule=exact] ind[firstLine=468,firstLineChars=200] jc=left  runs=1[24/]
+      '本系统弥补传统线下失物管理与简易网页平台短板，形成完整发布 - 审核 - 认领 - 失信管控业务闭环，轻量化、易部署，适合高职院校校内使用。'
+P325  sp[line=440,lineRule=exact] ind[firstLine=482] jc=left  runs=3[24/ 24/ 24/]
+      '本次毕业设计《基于 SpringBoot+Vue 校园失物招领遗失管理系统》是在实训老师全程悉心指导下完成。从开题选题、文献查阅、系统需求分'
+P326  sp[line=440,lineRule=exact] ind[firstLine=482] jc=left  runs=1[24/]
+      '在校三年软件工程专业学习中，各位任课老师传授 Java、前端、数据库等专业基础知识，为本次项目开发打下扎实理论基础；同班同学在开发遇到报错、'
+P327  sp[line=440,lineRule=exact] ind[firstLine=482] jc=left  runs=1[24/]
+      '在此，向我的指导老师刘群、所有授课教师、身边同学致以诚挚感谢！毕业设计是大学学习的总结，今后我会继续深耕软件开发技术，不断提升自身专业能力。'
+P298  sp[before=156,beforeLines=50] ind[left=340,hanging=340] jc=left numPr  runs=1[/]
+      '中文用五号宋体字，英文用五号Times New Roman字，顶头，单倍行距，段前0.5行。'

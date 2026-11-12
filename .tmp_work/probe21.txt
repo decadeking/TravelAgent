@@ -1,0 +1,193 @@
+PARAS 338 TABLES 4 CHILD 343
+===== P181 =====
+<p paraId=4A388136>
+  <pPr>
+    <tabs>
+      <tab val=left pos=565>
+    <spacing line=440 lineRule=exact>
+    <ind firstLine=480 firstLineChars=200>
+    <rPr>
+      <bCs>
+      <sz val=24>
+  <r>
+    <rPr>
+      <bCs>
+      <sz val=24>
+      <lang>
+    <pict>
+      <v:shape id=图片 1 spid=_x0000_s2062 spt=75 type=#_x0000_t75 style=position:absolute;left:0pt;margin-left:2.65pt;margin-top:17.7pt;height:276.4pt;width:453.15pt;z-index:-251657216;mso-width-relative:page;mso-height-relative:page; filled=f stroked=f coordsize=21600,21600 allowoverlap=f>
+        <v:path>
+        <v:fill on=f focussize=0,0>
+        <v:stroke on=f>
+        <v:imagedata id=rId15 title=>
+        <o:lock ext=edit grouping=f aspectratio=t>
+===== P211 =====
+<p paraId=72FE4664>
+  <pPr>
+    <widowControl>
+    <spacing before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact>
+    <jc val=left>
+    <outlineLvl val=0>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <kern val=0>
+      <sz val=24>
+  <r>
+    <rPr>
+      <lang>
+    <pict>
+      <v:shape id=_x0000_s2063 spid=_x0000_s2063 spt=75 type=#_x0000_t75 style=position:absolute;left:0pt;margin-left:0.15pt;margin-top:7.95pt;height:270.85pt;width:336.6pt;z-index:-251656192;mso-width-relative:page;mso-height-relative:page; filled=f stroked=f coordsize=21600,21600>
+        <v:path>
+        <v:fill on=f focussize=0,0>
+        <v:stroke on=f>
+        <v:imagedata id=rId16 title=>
+        <o:lock ext=edit grouping=f aspectratio=t>
+===== P246 =====
+<p paraId=39BC44CD>
+  <pPr>
+    <widowControl>
+    <spacing before=166 beforeLines=50 after=166 afterLines=50 line=440 lineRule=exact>
+    <jc val=left>
+    <outlineLvl val=0>
+    <rPr>
+      <bCs>
+      <sz val=24>
+  <r>
+    <rPr>
+      <lang>
+    <pict>
+      <v:shape id=_x0000_s2067 spid=_x0000_s2067 spt=75 type=#_x0000_t75 style=position:absolute;left:0pt;margin-left:4.05pt;margin-top:9.15pt;height:210.4pt;width:339.25pt;z-index:-251653120;mso-width-relative:page;mso-height-relative:page; filled=f stroked=f coordsize=21600,21600>
+        <v:path>
+        <v:fill on=f focussize=0,0>
+        <v:stroke on=f>
+        <v:imagedata id=rId19 title=>
+        <o:lock ext=edit grouping=f aspectratio=t>
+===== P294 =====
+<p paraId=5A759DAE>
+  <pPr>
+    <widowControl>
+    <spacing line=440 lineRule=exact>
+    <ind firstLine=720 firstLineChars=200>
+    <jc val=left>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <kern val=0>
+      <sz val=36>
+===== P295 =====
+<p paraId=565E1F60>
+  <pPr>
+    <widowControl>
+    <spacing line=440 lineRule=exact>
+    <ind firstLine=720 firstLineChars=200>
+    <jc val=left>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <kern val=0>
+      <sz val=36>
+===== P296 =====
+<p paraId=03872B6B>
+  <pPr>
+    <spacing line=440 lineRule=exact>
+    <ind firstLine=720 firstLineChars=200>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <sz val=36>
+    <sectPr>
+      <headerReference id=rId6 type=default>
+      <footerReference id=rId7 type=default>
+      <pgSz w=11906 h=16838>
+      <pgMar top=1417 right=1417 bottom=1417 left=1417 header=851 footer=992 gutter=0>
+      <pgNumType start=1>
+      <cols space=720 num=1>
+      <docGrid type=lines linePitch=333 charSpace=0>
+===== P297 =====
+<p paraId=65993058>
+  <pPr>
+    <widowControl>
+    <spacing before=312 beforeLines=100 after=312 afterLines=100 line=440 lineRule=exact>
+    <jc val=center>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <snapToGrid val=0>
+      <kern val=0>
+      <sz val=36>
+  <r>
+    <rPr>
+      <snapToGrid val=0>
+      <color val=FF0000>
+      <kern val=0>
+      <sz val=24>
+    <t>
+      TEXT: （另起一页）
+  <r>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <kern val=0>
+      <sz val=36>
+    <t>
+      TEXT: 参考文献
+  <r>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <color val=FF0000>
+      <kern val=0>
+      <szCs val=21>
+    <t>
+      TEXT: （ 黑体，小二，固定值22，段前1行 段后1行，居中）
+===== P324 =====
+<p paraId=4B8693E2>
+  <pPr>
+    <spacing before=312 beforeLines=100 after=312 afterLines=100 line=440 lineRule=exact>
+    <jc val=center>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <kern val=0>
+      <sz val=36>
+  <r>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <color val=000000>
+      <kern val=0>
+      <sz val=36>
+      <szCs val=36>
+    <br type=page>
+  <r>
+    <rPr>
+      <snapToGrid val=0>
+      <color val=FF0000>
+      <kern val=0>
+      <sz val=24>
+    <t>
+      TEXT: （另起一页）
+  <r>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <color val=000000>
+      <kern val=0>
+      <sz val=36>
+      <szCs val=36>
+    <t>
+      TEXT: 致  谢
+  <r>
+    <rPr>
+      <rFonts eastAsia=SimHei>
+      <color val=FF0000>
+      <kern val=0>
+      <szCs val=21>
+    <t>
+      TEXT: （ 黑体，小二，固定值22，段前1段后1行，居中）
+===== BODY TAIL =====
+<p paraId=362142E7>
+  <pPr>
+    <pStyle val=28>
+<p paraId=3827FA89>
+  <pPr>
+    <pStyle val=28>
+    <rPr>
+      <rFonts hint=eastAsia>
+<sectPr>
+  <headerReference id=rId8 type=default>
+  <pgSz w=11906 h=16838>
+  <pgMar top=1701 right=1418 bottom=1701 left=1418 header=851 footer=992 gutter=0>
+  <cols space=720 num=1>
+  <docGrid type=lines linePitch=312 charSpace=0>

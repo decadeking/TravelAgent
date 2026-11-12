@@ -1,0 +1,226 @@
+<mxfile host="Electron" agent="draw.io" pages="5">
+  <diagram id="02-系统功能模块图" name="02-系统功能模块图">
+    <mxGraphModel dx="1909" dy="1719" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1800" pageHeight="580" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;h1&gt;旅行吧 · 智能旅行规划系统&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="123" width="427" x="728" y="-71" as="geometry" />
+        </mxCell>
+        <mxCell id="role_user" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;&lt;b&gt;普通用户端&lt;/b&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="88" width="269" x="390" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="role_admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;&lt;b&gt;管理端&lt;/b&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="88" width="260" x="1299" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="e_root_user" edge="1" parent="1" source="root" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="role_user" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="975" y="84.6" />
+              <mxPoint x="530" y="84.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_root_admin" edge="1" parent="1" source="root" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="role_admin" value="">
+          <mxGeometry relative="1" x="0.002" as="geometry">
+            <Array as="points">
+              <mxPoint x="975" y="87.5" />
+              <mxPoint x="1420" y="87.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_auth" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;用户与鉴权&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="263" width="110" x="77" y="431.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_auth" edge="1" parent="1" source="role_user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_auth" value="">
+          <mxGeometry relative="1" x="0.0564" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="250" />
+              <mxPoint x="110" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_plan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;智能规划&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="258" width="129" x="210" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_plan" edge="1" parent="1" source="role_user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_plan" value="">
+          <mxGeometry relative="1" x="0.07" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="250" />
+              <mxPoint x="267" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_0A_DmcU3a3JlXFb2ib-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" x="-0.4625" as="geometry">
+            <mxPoint x="465.51" y="561.5" as="sourcePoint" />
+            <mxPoint x="455.845425370811" y="554.42993694803" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_trip" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;行程管理&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="257" width="126" x="362" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_trip" edge="1" parent="1" source="role_user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_trip" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="250" />
+              <mxPoint x="423" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_feed" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;旅行社区&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="252" width="122" x="513" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_feed" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_feed" value="">
+          <mxGeometry relative="1" x="0.0188" as="geometry">
+            <Array as="points">
+              <mxPoint x="577.5" y="255.88" />
+              <mxPoint x="577.5" y="255.88" />
+            </Array>
+            <mxPoint x="533.14" y="251.05" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_0A_DmcU3a3JlXFb2ib-3" edge="1" parent="1" source="m_social" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" x="-0.4068" as="geometry">
+            <Array as="points">
+              <mxPoint x="849.6" y="436" />
+            </Array>
+            <mxPoint x="849.5652173913045" y="527.376811594203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_social" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;动态社交&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="245" width="110" x="801" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_social" edge="1" parent="1" source="role_user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_social" value="">
+          <mxGeometry relative="1" x="0.0016" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="250" />
+              <mxPoint x="850" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_kb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;知识库&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="249" width="116" x="663" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_kb" edge="1" parent="1" source="role_user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_kb" value="">
+          <mxGeometry relative="1" x="-0.1193" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="250" />
+              <mxPoint x="724" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_msg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;消息通知&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="245" width="122" x="933" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_msg" edge="1" parent="1" source="role_user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_msg" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="250" />
+              <mxPoint x="988" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_audit" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;内容审核&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="239" width="110" x="1090" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_audit" edge="1" parent="1" source="role_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="250" />
+              <mxPoint x="1145" y="250" />
+              <mxPoint x="1145" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_cfg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;系统设置&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="239" width="116" x="1235" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_cfg" edge="1" parent="1" source="role_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_cfg" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="250" />
+              <mxPoint x="1293" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_kbm" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;知识库管理&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="230" width="110" x="1394" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_kbm" edge="1" parent="1" source="role_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_kbm" value="">
+          <mxGeometry relative="1" x="0.0037" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="250" />
+              <mxPoint x="1445" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_ban" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;用户与黑名单&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="226" width="110" x="1539" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_ban" edge="1" parent="1" source="role_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_ban" value="">
+          <mxGeometry relative="1" x="0.0236" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="250" />
+              <mxPoint x="1594" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_media" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;图片资源&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="230" width="110" x="1679" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_media" edge="1" parent="1" source="role_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_media" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="250" />
+              <mxPoint x="1720" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_ops" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;h1&gt;运维监控&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="226" width="110" x="1829" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_ops" edge="1" parent="1" source="role_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=13;endArrow=none;" target="m_ops" value="">
+          <mxGeometry relative="1" x="-0.088" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="250" />
+              <mxPoint x="1884" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bhGjak9k81n_0828U3Xv" name="第 2 页">
+    <mxGraphModel dx="83" dy="49" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hCUUIWT05FiJSLU57ojk" name="第 3 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="igAzzxeM9BpK0gUayn_N" name="第 4 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YoyKekag1cGBy60aTH4I" name="第 5 页">
+    <mxGraphModel dx="1418" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

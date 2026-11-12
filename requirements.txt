@@ -1,0 +1,29 @@
+# ============================================================
+# 交互式旅行规划智能体 · 后端依赖（零外部服务即可运行）
+# Python 3.12
+# 安装： python -m venv .venv && .venv\Scripts\pip install -r requirements.txt
+# ============================================================
+fastapi>=0.115,<0.200
+uvicorn[standard]>=0.30
+pydantic>=2.9,<3
+pydantic-settings>=2.5
+SQLAlchemy>=2.0,<3
+greenlet>=3.0
+aiosqlite>=0.20
+PyJWT>=2.9
+bcrypt>=4.1
+redis>=5.0            # 可选：设置 KV_BACKEND=redis 时启用
+httpx>=0.27
+python-dotenv>=1.0
+numpy>=1.26
+structlog>=24.1
+tenacity>=9.0
+openai>=1.40
+python-multipart>=0.0.9
+
+# MCP：智能体工具以 MCP 子进程（stdio）方式统一提供
+mcp>=1.9,<2
+
+# 知识文档解析（pdf / wps(docx) → RAG）
+pdfplumber>=0.11
+python-docx>=1.1

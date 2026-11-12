@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: travel-agent
+    metrics_path: /api/admin/metrics
+    static_configs:
+      - targets: ["gateway:8000"]

@@ -1,0 +1,30 @@
+Q4｜网关层具体做什么？怎么实现的
+核心答案 统一入口的五件事：JWT 鉴权（解析 token、把 user_id 注入请求上下文）、双层限流、请求
+路由、注入全局 trace_id 和 request_id、统一错误响应格式。实现上是 FastAPI 中间件，用 httpx 异步
+客户端转发到各服务。
+• 鉴权只在网关做一次，下游服务信任注入的 user_id，不重复校验
+• 响应头返回 X-Trace-Id，用户报障时凭这一个 ID 就能在 Jaeger 拉出完整链路
+• 限流触发时返回 429 并带 Retry-After 头，告诉客户端多久后可以重试
+Q5｜服务之间怎么通信？为什么不引入消息队列
+核心答案 同步 HTTP，httpx 异步客户端，内部寻址用 Docker Compose 的服务名。没引入 MQ 是因
+为流量小、流程是请求响应式的，MQ 会带来异步复杂度——顺序、消费幂等、消息丢失处理，对毕业
+设计收益不抵成本。论文展望里我写了规模化之后可以用 MQ 把规划任务异步化。
+• 内部调用同样有 3 秒超时和 1 次重试，内部依赖也会挂
+• 如果面试官追问流量变大怎么办：规划请求入队、消费者拉取执行、结果经 SSE 或 WebSocket 异步通
+知前端
+Q6｜怎么部署的？负载均衡怎么做
+核心答案 每个服务自带 Dockerfile，一条 docker-compose up 拉起全套：nginx、网关、五个服务、
+MySQL、Redis、Jaeger、Prometheus、Grafana。Nginx 用 least_conn 策略转发到网关，
+agent-service 配两个副本分担 SSE 长连接。
+• least_conn 比轮询更适合长连接场景——SSE 连接分布不均时轮询会把新请求压到已满的副本
+• 生产展望：K8s Deployment 加 HPA，按 SSE 连接数或 QPS 扩缩容，Ingress 统一入口
+第三部分 Agent 设计（LangGraph / Function Calling / 记
+忆）
+Q7｜为什么用 LangGraph？自己写循环不行吗
+核心答案 裸的 ReAct 循环有三个问题：流程不可控，没有显式的用户确认点；状态难持久化，多轮会话
+和断线恢复要自己从头造轮子；分支逻辑散落在 if-else 里难以维护。LangGraph 把流程建模成状态图
+——节点是函数，条件边按状态路由，checkpointer 把图状态持久化到 Redis，天然支持多轮、中断和
+恢复。
+• interrupt 机制实现 human-in-the-loop：行程确认前暂停，等用户确认或提出修改
+• 状态图本身就是文档，论文里的架构图直接从图结构画出来
+智能旅行规划系统 · 面试技术手册 第 5 页

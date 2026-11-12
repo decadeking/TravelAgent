@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ascii"?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dcterms:created xsi:type="dcterms:W3CDTF">2026-10-26T14:42:00Z</dcterms:created>
+  <dc:creator>&#25104;&#26195;&#23431;</dc:creator>
+  <cp:lastModifiedBy>&#36830;&#28431;&#38632;</cp:lastModifiedBy>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-10-27T03:03:49Z</dcterms:modified>
+  <dc:title>&#22522;&#20110;FastAPI&#21644;Vue3&#30340;&#20132;&#20114;&#24335;&#26053;&#34892;&#35268;&#21010;&#26234;&#33021;&#20307;&#31995;&#32479;&#30340;&#35774;&#35745;&#19982;&#23454;&#29616;</dc:title>
+  <cp:revision>1</cp:revision>
+</cp:coreProperties>

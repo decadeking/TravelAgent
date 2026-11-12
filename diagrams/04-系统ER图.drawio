@@ -1,0 +1,272 @@
+<mxfile host="Electron" agent="draw.io">
+  <diagram id="04-系统ER图" name="04-系统ER图">
+    <mxGraphModel dx="1643" dy="1135" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1180" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="legend" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=12;strokeColor=none;fillColor=none;fontSize=12;" value="说明：矩形为实体，菱形为联系；1 / n 表示基数，m / n 表示多对多；虚线为逻辑关联：用户上传知识库文档、知识库文档切片入向量库。" vertex="1">
+          <mxGeometry height="30" width="1080" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;用户&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="745" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="post" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;动态&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="1180" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="comment" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;评论&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="1426" y="567.21" as="geometry" />
+        </mxCell>
+        <mxCell id="media" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;媒体&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="160" x="1356" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="reminder" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;提醒&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="1120" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="notification" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;站内通知&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="860" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="trip" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;行程&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="170" x="433" y="429.5" as="geometry" />
+        </mxCell>
+        <mxCell id="trip_day" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;行程日&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="176" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="trip_item" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="行程项" vertex="1">
+          <mxGeometry height="65" width="160" x="166" y="637.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kbdoc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;知识库文档&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="428.97" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="kbchunk" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontSize=16;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;向量切片&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="170" x="166" y="826.4" as="geometry" />
+        </mxCell>
+        <mxCell id="r_create" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;创建&lt;/font&gt;" vertex="1">
+          <mxGeometry height="82" width="121.02" x="674" y="484.75" as="geometry" />
+        </mxCell>
+        <mxCell id="r_contain" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;包含&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="136" x="304.62" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="r_arrange" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="安排" vertex="1">
+          <mxGeometry height="55" width="90" x="274.62" y="551" as="geometry" />
+        </mxCell>
+        <mxCell id="r_publish" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;发布&lt;/font&gt;" vertex="1">
+          <mxGeometry height="79" width="132" x="968" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="r_like" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;点赞&lt;/font&gt;" vertex="1">
+          <mxGeometry height="82" width="121.02" x="978.98" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="r_collect" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;收藏&lt;/font&gt;" vertex="1">
+          <mxGeometry height="79" width="136" x="1010" y="572.21" as="geometry" />
+        </mxCell>
+        <mxCell id="r_own" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;拥有&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90.86" width="105" x="1390" y="427.14" as="geometry" />
+        </mxCell>
+        <mxCell id="r_upload" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上传&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90.25" width="190" x="1230" y="614.75" as="geometry" />
+        </mxCell>
+        <mxCell id="r_set" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;设置&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90.25" width="127.69" x="1014" y="724.75" as="geometry" />
+        </mxCell>
+        <mxCell id="r_receive" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;接收&lt;/font&gt;" vertex="1">
+          <mxGeometry height="87.79" width="140" x="824" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="r_follow" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;关注&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="109" x="494" y="556" as="geometry" />
+        </mxCell>
+        <mxCell id="r_chunk" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=12;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;切片&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="98" x="274.62" y="933" as="geometry" />
+        </mxCell>
+        <mxCell id="r1_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_create" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="758.9964780262294" y="562.0028931380326" as="geometry" />
+        </mxCell>
+        <mxCell id="r2_1" edge="1" parent="1" source="trip" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_contain" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2_2" edge="1" parent="1" source="r_contain" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="trip_day" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="397.0024960842636" y="338.0004927635861" as="geometry" />
+        </mxCell>
+        <mxCell id="r2_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="280.008234635439" y="400.0029209344187" as="geometry" />
+        </mxCell>
+        <mxCell id="r3_1" edge="1" parent="1" source="trip_day" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_arrange" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3_2" edge="1" parent="1" source="r_arrange" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="trip_item" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="280.0049237314697" y="518.0029072556356" as="geometry" />
+        </mxCell>
+        <mxCell id="r3_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="255.99608749997014" y="590.7505062500549" as="geometry" />
+        </mxCell>
+        <mxCell id="r4_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_publish" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4_2" edge="1" parent="1" source="r_publish" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="post" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="937.9963510168525" y="449.9961589893826" as="geometry" />
+        </mxCell>
+        <mxCell id="r4_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1120.0020507832523" y="385.99957644512585" as="geometry" />
+        </mxCell>
+        <mxCell id="r5_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_like" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5_2" edge="1" parent="1" source="r_like" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="post" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;m&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="960.9953971917631" y="556.0029459229997" as="geometry" />
+        </mxCell>
+        <mxCell id="r5_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1124.9950349068483" y="464.9999333366998" as="geometry" />
+        </mxCell>
+        <mxCell id="r6_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_collect" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6_2" edge="1" parent="1" source="r_collect" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="post" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;m&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="967.9982577609734" y="610.9980016290901" as="geometry" />
+        </mxCell>
+        <mxCell id="r6_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1154.995871781444" y="514.0011434210015" as="geometry" />
+        </mxCell>
+        <mxCell id="r7_1" edge="1" parent="1" source="post" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_own" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7_2" edge="1" parent="1" source="r_own" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="comment" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1368.971953505968" y="437.48522805616284" as="geometry" />
+        </mxCell>
+        <mxCell id="r7_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1468.003121139229" y="514.0026309861166" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_upload" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_2" edge="1" parent="1" source="r_upload" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="media" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1024.487989499624" y="672.0047709785554" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1380.0012785673216" y="713.9965617749517" as="geometry" />
+        </mxCell>
+        <mxCell id="r9_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_set" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9_2" edge="1" parent="1" source="r_set" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="reminder" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="946.0013948132663" y="696.0073821819481" as="geometry" />
+        </mxCell>
+        <mxCell id="r9_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="1130.960991086929" y="823.2086017202054" as="geometry" />
+        </mxCell>
+        <mxCell id="r10_1" edge="1" parent="1" source="user" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="r_receive" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r10_2" edge="1" parent="1" source="r_receive" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;" target="notification" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r10_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="859.9991729068311" y="737.9957783408807" as="geometry" />
+        </mxCell>
+        <mxCell id="r10_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="928.0012604105592" y="949.9952914956589" as="geometry" />
+        </mxCell>
+        <mxCell id="r12_1" edge="1" parent="1" source="kbdoc" style="endArrow=open;html=1;dashed=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=11;labelBackgroundColor=#FFFFFF;" target="r_chunk" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r12_2" edge="1" parent="1" source="r_chunk" style="endArrow=open;html=1;dashed=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=11;labelBackgroundColor=#FFFFFF;" target="kbchunk" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r12_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="378.0043555025852" y="934.0022210228365" as="geometry" />
+        </mxCell>
+        <mxCell id="r12_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="236.00259090686478" y="917.0047430920577" as="geometry" />
+        </mxCell>
+        <mxCell id="r11_1" edge="1" parent="1" source="r_follow" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;exitX=1;exitY=0.5;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="user" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r11_2" edge="1" parent="1" source="r_follow" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=12;exitX=0.75;exitY=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="user" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735.9" y="682.94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r11_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;m&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="649" y="566.75" as="geometry" />
+        </mxCell>
+        <mxCell id="r11_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="582" y="627.21" as="geometry" />
+        </mxCell>
+        <mxCell id="r_upload_kb" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=SimSun;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上传文档&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="150" x="510" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="r13_1" edge="1" parent="1" source="user" style="endArrow=openThin;html=1;dashed=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=11;endFill=0;" target="r_upload_kb" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r13_2" edge="1" parent="1" source="r_upload_kb" style="endArrow=openThin;html=1;dashed=1;strokeWidth=1;strokeColor=#000000;fontFamily=SimSun;fontSize=11;endFill=0;" target="kbdoc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r13_c1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="738" y="724.75" as="geometry" />
+        </mxCell>
+        <mxCell id="r13_c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;fillColor=#FFFFFF;strokeColor=none;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;n&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="30" x="523" y="869" as="geometry" />
+        </mxCell>
+        <mxCell id="2hRFO7PhOGwNzbXPNaQo-11" edge="1" parent="1" source="r11_c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="r11_c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4y7OdWehqwiz15RXo8M-1" edge="1" parent="1" source="reminder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;fillColor=#f5f5f5;strokeColor=#666666;" target="reminder">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4y7OdWehqwiz15RXo8M-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="829" y="585" as="sourcePoint" />
+            <mxPoint x="879" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4y7OdWehqwiz15RXo8M-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="829" y="585" as="sourcePoint" />
+            <mxPoint x="879" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4y7OdWehqwiz15RXo8M-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="829" y="585" as="sourcePoint" />
+            <mxPoint x="879" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4y7OdWehqwiz15RXo8M-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="r_create" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="601" y="478" as="sourcePoint" />
+            <mxPoint x="651" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4y7OdWehqwiz15RXo8M-16" connectable="0" parent="j4y7OdWehqwiz15RXo8M-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;fontSize=20;" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.1293" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

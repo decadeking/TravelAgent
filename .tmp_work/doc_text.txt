@@ -1,0 +1,347 @@
+[2] <Normal> (7字) 毕 业 设 计
+[5] <Normal> (29字) 题 目：  基于FastAPI和vue的交互式智能旅行系统
+[6] <Normal> (6字) 的设计与实现
+[9] <Normal> (32字) 学院：                       软件工程学院
+[10] <Normal> (39字) 专业：       软件工程技术       班级：        2303班
+[11] <Normal> (43字) 学生姓名：        成晓宇        	学号：    20230153033
+[12] <Normal> (27字) 校内导师姓名：     张海良     企业导师姓名：
+[13] <Normal> (34字) 完成日期：                      2027年3月
+[18] <Normal> (10字) 诚  信  声  明
+[20] <Normal> (5字) 本人声明：
+[21] <Normal> (35字) 1、本人所呈交的毕业设计是在老师指导下进行的研究工作及取得的研究成果；
+[22] <Normal> (72字) 2、据查证，除了文中特别加以标注和致谢的地方外，毕业设计中不包含其他人已经公开发表过的研究成果，也不包含为获得其他教育机构的学位而使用过的材料；
+[23] <Normal> (28字) 3、我承诺，本人提交的毕业设计中的所有内容均真实、可信。
+[27] <Normal> (9字) 作者签名： 成晓宇
+[30] <Normal> (18字) 日期：    年    月    日
+[33] <Normal> (4字) 目  录
+[34] <Normal> (4字) 摘要	Ⅰ
+[35] <Normal> (10字) Abstract	Ⅱ
+[36] <Normal> (8字) 第1章 绪论	1
+[37] <Normal> (12字) 1.1 系统开发背景	1
+[38] <Normal> (13字) 1.2 国内外研究现状	1
+[39] <Normal> (14字) 1.2.1 国内研究现状	1
+[40] <Normal> (14字) 1.2.2 国外研究现状	2
+[41] <Normal> (13字) 1.3 系统的研究意义	2
+[42] <Normal> (12字) 1.3.1 实践意义	2
+[43] <Normal> (12字) 1.3.2 学习意义	2
+[44] <Normal> (15字) 1.4 系统研究的主要内容	2
+[45] <Normal> (10字) 第2章 系统分析	4
+[46] <Normal> (12字) 2.1 系统功能分析	4
+[47] <Normal> (12字) 2.1.1 功能需求	4
+[48] <Normal> (16字) 2.1.2 普通用户模块分析	4
+[49] <Normal> (17字) 2.1.3 管理员用户模块分析	3
+[50] <Normal> (14字) 2.2 系统非功能性分析	6
+[51] <Normal> (12字) 2.2.1 性能需求	6
+[52] <Normal> (14字) 2.2.2 安全性需求析	6
+[53] <Normal> (13字) 2.2.3 兼容性需求	7
+[54] <Normal> (10字) 第3章 系统设计	8
+[55] <Normal> (14字) 3.1 系统功能模块设计	8
+[56] <Normal> (13字) 3.2 系统数据库设计	9
+[57] <Normal> (17字) 3.2.1 数据库概念模型设计	9
+[58] <Normal> (15字) 3.2.2 数据库表设计	10
+[59] <Normal> (11字) 第4章 系统实现	15
+[60] <Normal> (12字) 4.1 系统主界面	15
+[61] <Normal> (13字) 4.2 用户功能实现	15
+[62] <Normal> (16字) 4.2.1 用户登陆与注册	15
+[64] <Normal> (16字) 4.2.2 行程生成与编辑	17
+[65] <Normal> (16字) 4.2.3 行程分享与评论	18
+[66] <Normal> (13字) 4.2.4 新建规划	19
+[67] <Normal> (16字) 4.3 管理员后台功能实现	21
+[68] <Normal> (18字) 4.3.1 内容审核与用户管理	23
+[69] <Normal> (18字) 4.3.2 工具监控与数据统计	24
+[70] <Normal> (11字) 第5章 系统测试	25
+[71] <Normal> (12字) 5.1 测试的目的	25
+[72] <Normal> (12字) 5.2 测试的内容	25
+[73] <Normal> (19字) 5.2.1 行程生成模块的测试 	26
+[74] <Normal> (21字) 5.2.2 用户登录与注册模块的测试	26
+[75] <Normal> (18字) 5.2.3 行程编辑模块的测试	27
+[76] <Normal> (18字) 5.2.4 后台管理模块的测试	27
+[77] <Normal> (11字) 5.3 测试结论	28
+[78] <Normal> (5字) 结论	29
+[79] <Normal> (7字) 参考文献	30
+[80] <Normal> (5字) 致谢	31
+[84] <Normal> (23字) 基于FastAPI和vue的交互式智能旅行系统
+[85] <Normal> (6字) 的设计与实现
+[86] <Normal> (374字) 摘要：针对传统旅行规划依赖人工攻略、信息零散、难以结合用户偏好与实时条件做动态调整的问题，本文设计并实现一套基于 FastAPI 和 Vue3 的交互式旅行规划智能体系统。系统采用前后端分离架构，核心规划能力由 LangGraph 状态图编排，并结合函数调用与检索增强生成技术完成需求解析、行程组织与结果反思，通过 SSE 服务端推送实现分步流式输出。系统划分用户、AI 规划、工具调用与知识库等模块，提供行程生成、行程编辑、行程分享与评论、个人中心等功能，管理员可进行内容审核与运行监控。数据库采用 MySQL 存储业务数据，通过PostgreSql加pgvector插件新增向量功能，充当知识库完成向量检索提升回答准确率，降低事实性错误。测试结果表明系统响应迅速、规划结果准确，能够根据目的地、天数与偏好自动生成较合理的行程，满足实际使用需求。
+[88] <Normal> (43字) 关键词：FastAPI；Vue3；智能体；行程规划；LangGraph；RAG；SSE
+[91] <Normal> (102字) The Design and Implementation of an Interactive Travel Planning Agent System Based on FastAPI and Vue3
+[92] <Normal> (1465字) Abstract：Traditional travel planning often relies on manually compiled guides, while information is scattered and hard to combine personal preferences with real-time conditions for dynamic adjustment. This paper designs and implements an interactive travel planning agent system based on FastAPI and Vue3. The system adopts a front-end and back-end separation architecture. The back end provides asynchronous interfaces with FastAPI, and the front end is built with Vue3, TypeScript and Pinia. The core planning capability is orchestrated by a LangGraph state machine, combined with function calling and retrieval-augmented generation to complete requirement parsing, itinerary organization and result reflection, and realizes step-by-step streaming output through SSE. The system is divided into user, AI planning, tool invocation and knowledge base modules, providing itinerary generation, editing, sharing and comments, personal center and other functions, while administrators can conduct content review and operation monitoring. MySQL stores business data, and Redis implements rate limiting, idempotency and session caching, while optimistic locking and transactions guarantee consistency. Vector retrieval and similarity threshold filtering improve answer accuracy and reduce factual errors. Test results show that the system responds quickly and produces reasonable itineraries according to destination, days and preferences, meeting practical requirements.
+[95] <Normal> (67字) Keywords:FastAPI; Vue3; Agent; Travel Planning; LangGraph; RAG; SSE
+[97] <Normal> (6字) 第1章 绪论
+[98] <Normal> (10字) 1.1 系统开发背景
+[99] <Normal> (136字) 随着生活水平提高和节假日增多，自助旅行逐渐成为主流出行方式，但多数游客在制订行程时仍依赖搜索引擎、游记与社交平台，需要反复查阅大量信息才能拼凑出可行方案，效率低、体验差。许多在线旅行产品虽然提供了酒店、交通与景点预订，却缺少能够结合用户时间、预算与兴趣自动编排行程的能力。
+[100] <Normal> (124字) 与此同时，大语言模型在自然语言理解、知识问答与工具调用方面表现出较强能力，为智能化的行程规划提供了新思路。将大模型与检索增强生成、实时工具调用相结合，可以让系统在理解用户模糊需求的基础上，主动联网查询天气、景点与位置信息，最终生成结构化的行程安排。
+[101] <Normal> (129字) 基于上述背景，本文设计并实现一套基于 FastAPI 和 Vue3 的交互式旅行规划智能体系统，利用 LangGraph 状态图编排多阶段规划流程，结合函数调用与知识库检索生成贴近用户需求的行程，并通过流式输出即时反馈，探索大模型技术在垂直场景中的落地方式。
+[102] <Normal> (11字) 1.2 国内外研究现状
+[103] <Normal> (12字) 1.2.1 国内研究现状
+[104] <Normal> (554字) 国内在大模型与智能问答应用方面的研究进展迅速，大模型进入应用层之后，如何让它真正“会用工具”成了国内研究绕不开的问题。朱宇豪、戴琳琳、景辉等围绕铁路出行场景，把需求理解、资源检索与结果生成串成一条完整链路，构建出可落地的行程规划与推荐智能体[1]，说明在业务边界清晰的领域，「拆分任务—调用资源—汇总输出」这套做法确实能跑通。而真正落到多工具并存的场合，问题就转到调用是否稳定上：江志英、黄震宇、宋晨炜等提出基于思维代码的提示方法，用显式的思维结构约束模型拆解任务的顺序，让模型在多工具环境下少走弯路，工具调用的一致性与成功率随之改善[2]。郭先会、张梦姣、马军等则从更宏观的层面梳理了智能体的构建路径，把角色设定、记忆机制、任务规划与工具调用归纳为几个关键环节，认为单点优化之外更需要整体架构上的配合[3]。车万翔、窦志成、冯岩松等对模型时代自然语言处理面临的挑战作了系统梳理，同样把工具使用、规划与多轮交互列为需要重点回应的议题[4]，这与前面几项工作的关注点恰好互为印证。工程侧的变化同样明显，前后端分离的 Web 架构配合检索增强生成搭建知识库问答，已成为国内智能问答产品的常见组合；朱俊仪、朱尚明以本地知识库为例，完整给出了检索、重排与生成的实现路径，也提示了检索质量对最终答案的决定性影响[5]。
+[105] <Normal> (12字) 1.2.2 国外研究现状
+[106] <Normal> (581字) 国外对“推理”与“行动”能否合流的讨论起步更早，也更成体系。Jason Wei 等提出的思维链提示，让模型在给出答案之前先把中间推理写出来，复杂任务上的表现因此明显提升[6]，这为后来的「边想边做」埋下伏笔。沿着这条线索，Shunyu Yao 等把推理轨迹与实际行动交错起来，模型一边思考一边调用工具，再依据返回结果修正下一步，形成 ReAct 范式[7]，它至今仍是多数智能体的基本骨架。与推理并行的另一条路是知识获取：Patrick Lewis 等提出检索增强生成，先把外部文档检索出来再拼接进上下文，缓解了模型凭空作答与知识老化这两个老问题[8]。Timo Schick 等的 Toolformer 更进一步，让模型自己学会在合适的位置插入工具调用，工具不再完全依靠人工编排[9]；Yujia Qin 等则把可用工具扩展到上万条真实 API，用 ToolLLM 训练模型在大量接口中挑选合适的那个[10]。工具一多、约束一多，规划是否还稳得住就成了新问题：Jian Xie 等构建 TravelPlanner 基准，用贴近真实的多日行程任务考察智能体在多约束条件下的规划水平[11]；Binfeng Xu 等的 ReWOO 从效率入手，把推理与观测拆开，减少不必要的模型调用[12]。这些工作各有侧重，共同构成了交互式行程规划智能体可以直接借用的技术基础。
+[108] <Normal> (11字) 1.3 系统的研究意义
+[109] <Normal> (9字) 1.3.1实践意义
+[110] <Normal> (52字) 从用户角度看，系统将繁琐的人工规划转化为自动化的智能生成，缩短了决策时间，提高了行程的合理性与可执行性。
+[111] <Normal> (57字) 从技术角度看，系统将大模型、RAG 与实时工具调用相结合，探索了智能体在垂直场景中的工程化落地，具有一定参考价值。
+[112] <Normal> (9字) 1.3.2学习意义
+[113] <Normal> (104字) 通过本系统开发，完整掌握了 FastAPI 异步后端、Vue3 前端工程化、LangGraph 状态图编排、RAG 知识库、MySQL 与 Redis 等主流技术，提升了前后端分离开发与大模型应用的实战能力。
+[114] <Normal> (13字) 1.4 系统研究的主要内容
+[115] <Normal> (45字) 调研真实旅行规划场景，梳理游客与管理员的业务流程，明确行程规划、编辑、分享等核心功能需求；
+[116] <Normal> (58字) 选用 FastAPI+Vue3+LangGraph+RAG 技术栈，搭建前后端分离架构，通过 SSE 实现流式输出；
+[117] <Normal> (35字) 完成系统功能模块划分，绘制功能结构图、业务流程图与数据库 E-R 图；
+[118] <Normal> (29字) 设计用户、行程、行程日、行程项、分享动态等核心业务数据表；
+[119] <Normal> (40字) 实现游客浏览、用户行程生成与编辑、行程分享评论，以及管理员审核与监控等全部功能；
+[120] <Normal> (32字) 编写功能测试用例并完成系统测试，修复 Bug 保证系统稳定运行。
+[126] <Normal> (8字) 第2章 系统分析
+[127] <Normal> (10字) 2.1 系统功能分析
+[128] <Normal> (83字) 需求分析是项目开发的基础，只有厘清普通用户与管理员两者的真实诉求，才能避免后期大量返工。本系统按照普通用户、管理员三类角色划分权限，且普通用户与管理员的功能相互隔离。
+[129] <Normal> (10字) 2.1.1 功能需求
+[130] <Normal> (92字) 根据对智能旅行规划系统的分析研究，本系统设计了不同的角色，包括普通用户和管理员。普通用户在登录后可以使用行程生成、编辑、分享、评论等主要功能；管理员则负责内容审核、用户管理与运行监控。
+[131] <Normal> (75字) 普通用户：注册、登录、修改个人信息；输入目的地、天数与偏好生成行程；对行程进行编辑、分享与删除；浏览他人行程并评论、点赞；个人中心管理我的行程与动态；
+[132] <Normal> (58字) 管理员：审核待审核的行程分享动态（通过/驳回）；管理用户账号与禁用状态；查看 LLM 调用、工具调用与系统运行统计。
+[133] <Normal> (14字) 2.1.2 普通用户模块分析
+[134] <Normal> (180字) 普通用户模块分析：普通用户需要登录账号，使用该账号输入出发地、目的地、出发日期、天数与偏好标签，点击生成后系统按步骤解析需求、查询景点与天气、整合知识库资料，最终返回按天分组的行程。行程生成后用户可以逐日查看，编辑其中的景点与时间，并将行程以分享动态的形式发布到社区，供他人浏览评论。该模块涉及行程生成、行程管理、行程分享与个人中心等若干子功能。如图2.1.2
+[151] <Normal> (14字) 图2.1.2 普通用户用例图
+[152] <Normal> (12字) 2.1.3管理员模块分析
+[153] <Normal> (296字) 管理员模块分析：管理员账号登录后进入后台，首页汇总用户、动态与模型调用的整体情况，用于判断平台是否处于正常状态。管理员的工作主要围绕五个方面展开：内容审核，按可见范围筛选用户发布的动态，对可疑内容予以驳回；系统与模型配置，维护模型服务、密钥、默认模型以及限流阈值；知识库管理，新增或删除知识文档，入库后重建索引并执行自检，保证检索结果可用；用户与黑名单管理，对违规账号执行拉黑，情况核实后可以解封；模型流量监控，实时查看调用次数、响应耗时与令牌消耗，发现异常时降级或停用相应工具。该模块涉及内容审核、系统与模型配置、知识库管理、用户与黑名单管理和模型流量监控等若干子功能。如图2.1.3所示。
+[175] <Normal> (13字) 图2.1.3 管理员用例图
+[178] <Normal> (12字) 2.2 系统非功能性分析
+[179] <Normal> (10字) 2.2.1 性能需求
+[180] <Normal> (91字) 页面响应：正常网络下普通接口响应控制在 3 秒以内，首页与行程列表的首屏数据加载在 1 秒以内；行程生成属于长耗时链路，通过 SSE 先返回进度与中间结果，不要求一次性返回完整行程。
+[181] <Normal> (112字) 并发支持：后端采用 FastAPI 异步框架与异步数据库会话，单个实例即可支撑较多用户同时浏览与生成行程，读写操作不阻塞事件循环；面对突发流量，用 Redis 做接口限流与幂等控制，避免同一请求重复触发规划、把模型配额打满。
+[182] <Normal> (93字) 流式输出：行程生成的解析需求、查询景点、查询天气、整理行程等中间步骤通过 SSE 分步推送，前端步骤条实时推进，避免页面长时间空白；连接中断后可携带事件游标续传，既不丢步骤也不重复规划。
+[184] <Normal> (11字) 2.2.2 安全性需求
+[185] <Normal> (123字) 密码加密：用户密码经加盐哈希后存储，数据库不保存明文，即使库被拖走也难以还原；登录失败时统一提示“账号或密码错误”，不区分是账号不存在还是密码错误，避免被用来枚举账号。登录鉴权：后端使用 JWT 校验身份，未登录用户禁止访问行程生成等受保护接口；
+[186] <Normal> (85字) 角色权限：普通用户与管理员接口分别挂载，后端在进入业务逻辑前即校验角色，越权请求直接拦截，不依赖前端隐藏按钮；会话记录按所属用户校验，防止借用他人的会话标识读取对话内容。
+[187] <Normal> (70字) 内容管控：分享动态经管理员审核后才对外展示，违规内容可驳回下架；被拉黑用户禁止发布、评论、点赞等社区互动，拉黑原因与时间同步记录并通知本人。
+[188] <Normal> (85字) 登录鉴权 ：后端以 JWT 校验身份，未登录用户禁止访问行程生成、编辑、删除等受保护接口；令牌在服务端留有会话记录，支持过期失效与主动吊销，用户改密或被拉黑后可立即失效。
+[190] <Normal> (11字) 2.2.3 兼容性需求
+[191] <Normal> (34字) 浏览器：适配 Chrome、Edge、360 等主流 PC 浏览器；
+[192] <Normal> (35字) 分辨率：适配 1366、1920 等标准电脑屏幕，页面布局不产生错乱；
+[193] <Normal> (42字) 后端：可在 Windows、Linux 环境部署运行，支持 Docker 一键编排。
+[194] <Normal> (73字) 外部依赖 ：数据库与缓存选用 MySQL、Redis 等通用版本，大模型与天气、地图等工具接口的地址和密钥均配置化，更换服务商时无需改动业务代码。
+[200] <Normal> (8字) 第3章 系统设计
+[201] <Normal> (12字) 3.1 系统功能模块设计
+[202] <Normal> (203字) 系统的整体设计分前端与后端两个方面：前端负责页面展示与交互，采用 Vue3、TypeScript 与 Pinia，包含首页、行程生成、行程列表、个人中心、分享社区与后台管理等页面；后端使用 FastAPI 提供异步接口，核心规划流程由 LangGraph 状态图编排，通过函数调用完成天气、景点等实时查询，并结合知识库检索补全信息，使用 SSE 向前端流式推送进度[13]。整体功能模块划分如图3.1所示。
+[213] <Normal> (14字) 图3.1 系统总体功能模块图
+[214] <Normal> (11字) 图3.1系统功能模块图
+[215] <Normal> (122字) 根据功能模块的划分，可以得到系统的总体流程。整体上，游客与普通用户从首页入口进入，普通用户登录后由用户模块进入行程规划页面，系统解析需求并调用相关工具后生成行程，随后用户可编辑、分享行程；管理员从后台入口登录，进行内容审核、用户管理与运行监控。
+[216] <Normal> (204字) 用户登录或注册账号后进入智能规划页面，输入目的地、天数与偏好等旅行需求；若信息不完整，智能体会反问补全，用户追加说明后重新提交；信息齐备后，系统检索知识库并依次调用天气、景点、路线等工具，生成按天组织的行程并以流式方式输出，右侧面板实时预览。用户对结果不满意时可通过多轮对话继续修订，满意后保存为行程；若填写了出发日期，系统会创建出行提醒，最后将结果写入站内通知，流程结束。用户系统业务流程如下图3.2.1。
+[236] <Normal> (13字) 图3.2.1用户系统流程图
+[238] <Normal> (236字) 管理员从后台入口输入账号密码，鉴权失败则提示错误并重新登录；通过后进入管理后台首页，按需依次处理各项事务：在内容审核中查看待处理动态并执行通过或驳回，操作结果通知发布作者；在用户管理中查询用户并执行拉黑或解除拉黑，同时发送站内通知；在运行监控中查看 LLM 与工具调用统计、SSE 在线连接与熔断状态；在数据统计中查看用户、动态、行程总量。每完成一项处理即返回判断是否继续管理，选择继续则回到后台首页处理下一模块，否则退出后台，流程结束。管理员系统业务流程如下图3.2.2
+[264] <Normal> (14字) 图3.2.2 系统总体流程图
+[266] <Normal> (11字) 3.2 系统数据库设计
+[267] <Normal> (15字) 3.2.1 数据库概念模型设计
+[268] <Normal> (160字) 概念模型设计用于描述现实世界中实体及其联系。根据对旅行规划业务的分析，本系统的核心实体包括用户、行程、行程日、行程项、分享动态、知识库文档等[14]。一个用户可以生成多个行程，一个行程包含多个行程日，一个行程日又包含多个行程项；用户可发布多条分享动态，每条动态对应一个行程。实体之间通过这些一对一或一对多的联系相互关联。
+[269] <Normal> (24字) 实体图可以得出系统整体E-R图，如图3.3所示。
+[272] <Normal> (11字) 图3.3 系统E-R图
+[274] <Normal> (12字) 3.2.2 数据库表设计
+[275] <Normal> (70字) 根据系统总体设计可以确定本项目的核心业务表包括用户表、行程表、行程日表、行程项表、分享动态表等。各表之间通过主外键关联，具体结构见下表所示。
+[276] <Normal> (108字) （1）用户信息表：id是主键，表示用户的编号。username是用户名，password是密码，role为用户角色，用户角色有管理员和普通用户两种，设置为1为普通用户，设置为3则为管理员。数据库表结构如表3.4所示。
+[277] <Normal> (10字) 表3.4 用户信息表
+[278] <Normal> (95字) 功能：存储注册用户信息。username 唯一用于登录，password_hash 加盐哈希不存明文，role 区分普通用户与管理员，banned 记录黑名单状态，头像、昵称供个人中心展示。
+[280] <Normal> (132字) （2）行程表 ：id是主键，表示行程的编号。user_id是外键，关联用户表，表示该行程所属的用户。city为目的地城市，start_date为出发日期，days为行程天数，status为行程状态，用于区分草稿、已确认与已分享三种情况。数据库表结构如表3.5所示。
+[281] <Normal> (8字) 表3.5 行程表
+[282] <Normal> (104字) 功能：存储用户生成的行程主记录。user_id 关联所属用户，destination、days、budget 记录目的地与预算，status 区分草稿、已确认、已分享，start_date 用于开启出行提醒。
+[284] <Normal> (141字) （3）行程日表 ：id是主键，表示行程日的编号。trip_id是外键，关联行程表，与行程表构成一对多联系，一个行程包含多个行程日。day_index表示该行程的第几天，date为对应日期，summary为当日行程概述，created_at为记录创建时间。数据库表结构如表3.6所示。
+[285] <Normal> (9字) 表3.6 行程日表
+[286] <Normal> (90字) 功能：行程按天拆分的记录。trip_id 关联行程，day_no 标记第几天并建唯一约束，city 支持跨城行程，weather_snapshot 缓存当日天气，与行程表为一对多。
+[288] <Normal> (138字) （4）行程项表 ：id是主键，表示行程项的编号。day_id是外键，关联行程日表，一个行程日下包含多个行程项。start_time为活动开始时间，title为项目名称，place为活动地点，note为备注说明，用于存放门票价格、游玩提示等补充信息。数据库表结构如表3.7所示。
+[289] <Normal> (9字) 表3.7 行程项表
+[290] <Normal> (92字) 功能：行程日内的具体活动。day_id 关联行程日，seq 控制展示顺序，time_slot 区分上午下午晚上，cost、duration_min 记录花费与时长，支撑逐日查看与编辑。
+[292] <Normal> (163字) （5）分享动态表 ：id是主键，表示动态的编号。trip_id与user_id为外键，分别关联行程表与用户表，表示该动态由哪个用户发布、对应哪份行程。visibility为可见范围，设置为1为公开可见，设置为2为仅好友可见，设置为3为仅自己可见。likes为点赞数，created_at为发布时间。数据库表结构如表3.8所示。
+[293] <Normal> (10字) 表3.8 分享动态表
+[294] <Normal> (94字) 功能：用户发布的图文动态。user_id 与 trip_id 标明发布者及所分享的行程，status 配合审核，visibility 控制可见范围，likes、heat 计数驱动热度排序。
+[296] <Normal> (158字) (6)会话记录表: session_id为会话的唯一标识，由后端按时间前缀加随机数生成，前端凭它续聊与恢复上下文。user_id是外键，关联用户表，校验会话归属，防止越权读取他人对话。state_json以JSON文本保存对话消息与需求槽位，summary为会话摘要，供历史会话列表展示。数据库表结构如图3.9所示。
+[297] <Normal> (10字) 表3.9 会话记录表
+[298] <Normal> (87字) 功能：state_json 存消息与槽位，summary 供历史列表展示。功能：智能规划对话的记录。session_id 全局唯一供续聊恢复，user_id 校验归属防越权，
+[300] <Normal> (9字) 第4章  系统实现
+[301] <Normal> (9字) 4.1 系统主界面
+[302] <Normal> (116字) 系统主界面采用清新简洁的旅行风格，顶部为全局导航栏，包含首页、行程规划、分享社区、个人中心与登录入口；中间区域展示推荐目的地与快捷入口。对于未登录的游客，仅展示公开内容，点击登录后进入个人首页。系统首页与行程列表页面如图4.1所示。
+[303] <Normal> (16字) 图4.1.1 首页与行程列表页面
+[304] <Normal> (10字) 4.2 用户功能实现
+[305] <Normal> (13字) 4.2.1 用户登录与注册
+[306] <Normal> (106字) 在进入系统后，用户可以点击右上角登录。登录接口使用 FastAPI 异步处理：后端按用户名查询用户，校验密码哈希，校验通过后签发 JWT，并将令牌写入 Redis 会话缓存，返回给前端存储。登录界面如图4.1,2
+[323] <Normal> (10字) 图4.1.2登录界面
+[324] <Normal> (9字) 核心登录代码如下：
+[325] <Normal> (52字) @router.post("/auth/login", response_model=TokenOut)
+[326] <Normal> (69字) async def login(data: UserLogin, db: AsyncSession = Depends(get_db)):
+[327] <Normal> (57字) stmt = select(User).where(User.username == data.username)
+[328] <Normal> (28字) user = await db.scalar(stmt)
+[329] <Normal> (16字) if user is None:
+[330] <Normal> (54字) raise HTTPException(status_code=401, detail="账号或密码错误")
+[331] <Normal> (53字) if not verify_password(data.password, user.password):
+[332] <Normal> (54字) raise HTTPException(status_code=401, detail="账号或密码错误")
+[333] <Normal> (63字) token = create_access_token(subject=str(user.id), expires=7200)
+[334] <Normal> (50字) await redis.setex(f"token:{user.id}", 7200, token)
+[335] <Normal> (52字) return TokenOut(token=token, nickname=user.nickname)
+[337] <Normal> (160字) 用户在注册页填写用户名、密码与昵称后，前端将请求发往注册接口；后端先按用户名查询数据库，若已被占用则直接返回冲突提示；可用时对密码执行加盐哈希后写入用户表，全程不落明文。注册成功后系统立即签发 JWT 令牌，连同用户基本信息一并返回，前端将其存入 Pinia 完成自动登录，无需再次输入账号密码。注册界面如下图4.1.3
+[353] <Normal> (6字) 图4.1.3
+[354] <Normal> (7字) 核心代码如下：
+[355] <Normal> (34字) @router.post("/api/auth/register")
+[356] <Normal> (81字) async def register(payload: RegisterIn, db: AsyncSession = Depends(get_session)):
+[357] <Normal> (79字) exists = await db.scalar(select(User).where(User.username == payload.username))
+[358] <Normal> (10字) if exists:
+[359] <Normal> (30字) raise ConflictError("用户名已被占用")
+[360] <Normal> (12字) user = User(
+[361] <Normal> (26字) username=payload.username,
+[362] <Normal> (46字) password_hash=hash_password(payload.password),
+[363] <Normal> (46字) nickname=payload.nickname or payload.username,
+[364] <Normal> (1字) )
+[365] <Normal> (12字) db.add(user)
+[366] <Normal> (17字) await db.commit()
+[367] <Normal> (22字) await db.refresh(user)
+[368] <Normal> (63字) token, expires_in = create_access_token(user.id, user.username)
+[369] <Normal> (57字) return ok({"access_token": token, "token_type": "bearer",
+[370] <Normal> (52字) "expires_in": expires_in, "user": _user_dict(user)})
+[371] <Normal> (13字) 4.2.2 行程生成与编辑
+[372] <Normal> (170字) 行程生成是系统的核心功能。用户在表单中输入目的地、出发日期、天数和偏好标签后点击生成，系统随即进入规划流程：先是解析需求，填充默认值；接着通过函数调用查询景点与天气，从知识库检索相关资料；然后整理并按天组织行程；最后对结果进行反思校验，通过 SSE 将上述步骤分步推送到前端，形成步骤条动画。生成的行程可逐日展开查看与编辑，如图4.2所示。
+[390] <Normal> (4字) 图4.2
+[391] <Normal> (7字) 核心代码如下：
+[392] <Normal> (39字) def build_travel_graph() -> StateGraph:
+[393] <Normal> (46字) g = StateGraph("travel_planner", max_steps=24)
+[394] <Normal> (53字) g.add_node("intake", nodes.intake)        # 需求理解与槽位抽取
+[395] <Normal> (52字) g.add_node("clarify", nodes.clarify)      # 目的地缺失时反问
+[396] <Normal> (53字) g.add_node("plan", nodes.plan)            # 大模型生成行程草案
+[397] <Normal> (57字) g.add_node("tool_call", nodes.tool_call)  # 函数调用查天气/景点/路线
+[398] <Normal> (48字) g.add_node("reflect", nodes.reflect)      # 结果自检
+[399] <Normal> (36字) g.add_node("respond", nodes.respond)
+[401] <Normal> (27字) g.set_entry_point("intake")
+[402] <Normal> (48字) g.add_conditional_edges("intake", _after_intake,
+[403] <Normal> (39字) {"plan": "plan", "clarify": "clarify"})
+[404] <Normal> (31字) g.add_edge("plan", "tool_call")
+[405] <Normal> (34字) g.add_edge("tool_call", "reflect")
+[406] <Normal> (50字) g.add_conditional_edges("reflect", _after_reflect,
+[407] <Normal> (38字) {"revise": "plan", "done": "respond"})
+[408] <Normal> (26字) g.add_edge("respond", END)
+[409] <Normal> (8字) return g
+[411] <Normal> (13字) 4.2.3 行程分享与评论
+[412] <Normal> (110字) 行程生成后可进行分享。用户点击分享，选择可见范围（公开、仅互关好友、仅自己）后发布为动态，其他用户可浏览、评论与点赞。详情页面展示行程的每日安排、天气建议与应用的工具，支持复制分享链接，如图4.3.1与图4.3.2所示。
+[424] <Normal> (6字) 图4.3.1
+[426] <Normal> (6字) 图4.3.2
+[428] <Normal> (7字) 核心代码如下：
+[429] <Normal> (16字) @router.post("")
+[430] <Normal> (81字) async def create_post(payload: PostIn, user: User = Depends(require_active_user),
+[431] <Normal> (41字) db: AsyncSession = Depends(get_session)):
+[432] <Normal> (31字) if not payload.content.strip():
+[433] <Normal> (33字) raise ValidationError("动态内容不能为空")
+[434] <Normal> (33字) # 配图统一落到后端资源文件夹：data: URL / 外链先落盘
+[435] <Normal> (71字) images = await materialize_images(db, payload.images, owner_id=user.id)
+[436] <Normal> (12字) post = Post(
+[437] <Normal> (68字) user_id=user.id, title=payload.title[:160], content=payload.content,
+[438] <Normal> (45字) city=payload.city, location=payload.location,
+[439] <Normal> (46字) images=json.dumps(images, ensure_ascii=False),
+[440] <Normal> (50字) tags=json.dumps(payload.tags, ensure_ascii=False),
+[441] <Normal> (50字) status="published", visibility=payload.visibility,
+[442] <Normal> (1字) )
+[443] <Normal> (12字) db.add(post)
+[444] <Normal> (17字) await db.commit()
+[445] <Normal> (46字) return ok(await _serialize(db, post, user.id))
+[447] <Normal> (10字) 4.2.4 新建规划
+[448] <Normal> (163字) 智能规划页面以聊天界面呈现。用户在输入框中描述出行需求然后发送，首先在知识库中检索相关知识片段，然后和用户prompt一起拼接进上下文中，大模型思考文本、工具调用卡片（天气、景点、路线查询）、行程草案等事件逐步推送，前端实时渲染成打字机气泡与步骤卡片，需求不完整时智能体会反问补全，用户可多轮对话持续修订；如图4.3.3所示。
+[460] <Normal> (6字) 图4.3.3
+[462] <Normal> (7字) 核心代码如下：
+[463] <Normal> (21字) @router.post("/chat")
+[464] <Normal> (71字) async def chat(payload: ChatIn, user: User = Depends(get_current_user),
+[465] <Normal> (41字) db: AsyncSession = Depends(get_session)):
+[466] <Normal> (37字) """发起规划对话，返回 SSE 流（全系统唯一的 SSE 接口）。"""
+[467] <Normal> (63字) message = prompt_guard.check_input(payload.message)   # 提示词注入防护
+[468] <Normal> (22字) if payload.session_id:
+[469] <Normal> (38字) # 续聊已有会话：先验归属，防止拿别人的 session_id 读写其上下文
+[470] <Normal> (60字) await _assert_session_owner(db, payload.session_id, user.id)
+[471] <Normal> (43字) # 会话名采用「s+月日时时分秒+3位随机数」：时间前缀便于辨认，随机后缀保证全局唯一
+[472] <Normal> (92字) session_id = payload.session_id or f"s{datetime.now():%m%d%H%M%S}{random.randint(100, 999)}"
+[473] <Normal> (51字) request_id = payload.request_id or uuid.uuid4().hex
+[474] <Normal> (30字) generator = chat_event_stream(
+[475] <Normal> (40字) user_id=user.id, username=user.username,
+[476] <Normal> (62字) session_id=session_id, message=message, request_id=request_id,
+[477] <Normal> (41字) model=payload.model, tools=payload.tools,
+[478] <Normal> (1字) )
+[479] <Normal> (67字) return StreamingResponse(generator, media_type="text/event-stream",
+[480] <Normal> (37字) headers={"Cache-Control": "no-cache",
+[481] <Normal> (27字) "Connection": "keep-alive",
+[482] <Normal> (27字) "X-Accel-Buffering": "no"})
+[485] <Normal> (13字) 4.3 管理员后台功能实现
+[486] <Normal> (47字) 管理员登录后台后可对平台进行管理。后台采用侧边栏导航，包含内容审核、用户管理和运行监控等页面。
+[487] <Normal> (15字) 4.3.1 内容审核与用户管理
+[488] <Normal> (101字) 首页的动态通过审核后才会公开。管理员在内容审核页面可查看待审核分享动态，选择通过或驳回，驳回需填写理由；审核通过的动态在社区中按可见范围展示。用户管理页面用于查看用户列表、调整账号状态。如图4.4所示。
+[502] <Normal> (4字) 图4.4
+[503] <Normal> (7字) 核心代码如下：
+[504] <Normal> (38字) @admin_router.put("/{post_id}/status")
+[505] <Normal> (66字) async def admin_set_status(post_id: int, status: str = Query(...),
+[506] <Normal> (39字) user: User = Depends(get_current_user),
+[507] <Normal> (41字) db: AsyncSession = Depends(get_session)):
+[508] <Normal> (19字) _ensure_admin(user)
+[509] <Normal> (54字) if status not in ("published", "pending", "rejected"):
+[510] <Normal> (29字) raise ValidationError("非法状态")
+[511] <Normal> (37字) post = await _owned_post(db, post_id)
+[512] <Normal> (45字) post.status = status               # 通过/驳回/下架
+[513] <Normal> (17字) await db.commit()
+[514] <Normal> (49字) return ok({"id": post.id, "status": post.status})
+[516] <Normal> (15字) 4.3.2 工具监控与数据统计
+[517] <Normal> (81字) 工具调用监控页面展示 LLM 调用、工具调用的次数与耗时，数据统计页面通过图表呈现各城市行程数量、接口响应时间等指标，帮助管理员了解系统运行情况。如图4.5所示。
+[523] <Normal> (4字) 图4.5
+[524] <Normal> (7字) 核心代码如下：
+[525] <Normal> (24字) @router.get("/overview")
+[526] <Normal> (53字) async def overview(_: User = Depends(require_admin)):
+[527] <Normal> (47字) from ..agent_service.sse.manager import manager
+[528] <Normal> (43字) snap = metrics.snapshot()          # 内存指标快照
+[529] <Normal> (11字) return ok({
+[530] <Normal> (50字) "counters": snap["counters"],  # LLM 调用、工具调用、错误次数等
+[531] <Normal> (25字) "gauges": snap["gauges"],
+[532] <Normal> (44字) "p95_ms": snap["p95"],         # 接口 P95 响应耗时
+[533] <Normal> (45字) "tokens_last_hour": snap["tokens_last_hour"],
+[534] <Normal> (42字) "sse_connections": manager.online_count(),
+[535] <Normal> (41字) "breakers": all_breakers(),    # 各工具熔断器状态
+[536] <Normal> (2字) })
+[541] <Normal> (8字) 第5章 系统测试
+[542] <Normal> (9字) 5.1 测试的目的
+[543] <Normal> (91字) 系统开发完成后仍可能存在逻辑漏洞、交互异常、权限越权等潜在问题，通过黑盒功能测试遍历核心模块，验证各项需求功能是否正常执行，修复发现的 Bug，确保上线后用户使用稳定、规划结果准确。
+[544] <Normal> (9字) 5.2 测试的内容
+[545] <Normal> (14字) 5.2.1 行程生成模块测试
+[546] <Normal> (141字) 行程生成模块的测试重点验证需求解析、工具调用、流式输出与保存等关键流程。用户使用正确的账号密码登录系统后，点击“行程规划”进入表单页面，填写城市、出发日期、天数和偏好标签后点击生成，观察步骤条是否依次出现，核对生成的行程是否按天组织、时间顺序是否正确。测试用例如下表 5.1 所示。
+[547] <Normal (Web)> (14字) 表5.1 行程生成用例测试表
+[548] <Body Text> (147字) 表5.1 的测试过程中，输入城市为杭州、出发日期为 2026-04-18、天数为 3 天、人数为 2 人，偏好为人文、少走路。点击生成后，步骤条依次显示解析需求、查询景点、查询天气、整理行程；系统在约 10 秒内返回按天分组的行程，时间顺序正确；保存后“我的行程”中出现该记录，与预期结果一致。
+[551] <Body Text> (17字) 5.2.2 用户登录与注册模块测试
+[552] <Body Text> (136字) 登录与注册模块重点验证身份鉴权与账号安全。新用户在注册页填写用户名、密码与昵称提交，观察是否注册成功并自动登录；再使用重复用户名注册，验证系统能否正确拦截。登录环节分别测试正确密码与错误密码两种情况，核对 JWT 签发与越权访问拦截是否生效。测试用例如下表 5.2 所示。
+[553] <Normal (Web)> (15字) 表5.2 登录与注册用例测试表
+[554] <Body Text> (123字) 表 5.2 的测试过程中，使用新用户名注册一次成功并直接进入已登录状态；重复提交同名注册时页面弹出"用户名已被占用"提示；错误密码登录返回鉴权失败，正确密码登录正常签发令牌；在浏览器地址栏直接访问行程接口被拦截并跳转登录页，各项结果均与预期一致。
+[557] <Body Text> (12字) 5.2.3 行程编辑模块
+[558] <Body Text> (130字) 行程编辑模块重点验证逐日修改与并发冲突处理。用户在"我的行程"中打开已生成的行程，进入编辑态调整某日的景点顺序与备注后保存，核对列表与详情页是否同步更新；再开两个窗口同时编辑同一行程，验证乐观锁能否阻止后保存的一方覆盖先保存的修改。测试用例如表 5.3 所示。
+[559] <Normal (Web)> (13字) 表5.3行程编辑用例测试表
+[560] <Body Text> (101字) 表 5.3 的测试过程中，动态发布后在分享社区首页正常展示；另一账号评论、点赞均成功，动态卡片上计数同步更新，发布者消息中心收到评论提醒；将可见范围改为仅自己后，他人刷新列表该动态消失，与预期结果一致。
+[562] <Body Text> (12字) 5.2.4 后台管理模块
+[563] <Body Text> (119字) 后台管理模块重点验证内容审核、用户管控与数据统计。管理员登录后台，对一条待审核动态执行驳回与通过操作，核对社区展示状态；再对违规用户执行拉黑，验证该用户发布、评论被拒绝；最后查看运行监控页的调用统计与在线数据。测试用例如表 5.5 所示。
+[564] <Normal (Web)> (13字) 表5.4后台管理用例测试表
+[565] <Body Text> (102字) 表 5.4 的测试过程中，驳回后该动态立即从社区列表消失，审核通过的内容正常可见；被拉黑账号发起评论请求被后端拒绝并给出明确提示；运行监控页统计数字随操作实时增长，数据与实际操作次数吻合，与预期结果一致。
+[567] <Body Text> (1字) 。
+[568] <Normal> (8字) 5.3 测试结论
+[569] <Normal> (86字) 本次共设计若干条功能测试用例，覆盖登录注册、行程生成、行程编辑、行程分享评论与后台管理等核心功能，主要功能通过率较高。系统登录鉴权、流式输出、行程保存等核心流程均验证通过。
+[570] <Normal> (61字) 测试中发现少量页面排版、步骤提示小问题，已全部修复；系统响应速度与规划准确度满足需求，整体功能完整，达到毕业设计预期目标。
+[577] <Normal> (4字) 结  论
+[578] <Normal> (72字) 本课题围绕自助旅行规划效率低、信息分散的痛点，完成基于 FastAPI 和 Vue3 的交互式旅行规划智能体系统的设计与开发。整体工作总结如下：
+[579] <Normal> (57字) 完成需求调研，划分游客、普通用户、管理员三类角色，梳理行程规划等核心业务模块，明确性能、安全、兼容三类非功能需求；
+[580] <Normal> (88字) 搭建成熟技术栈：FastAPI 异步后端、Vue3+TypeScript 前端、LangGraph 状态图编排、RAG 知识库、MySQL 与 Redis，实现前后端分离架构；
+[581] <Normal> (54字) 完成系统概要设计与详细设计，绘制功能结构图、业务流程图与 E-R 图，设计五张核心业务数据表并遵循第三范式；
+[582] <Normal> (50字) 实现游客浏览、行程生成与编辑、行程分享评论及后台审核监控等全部功能，给出核心业务代码与系统界面截图；
+[583] <Normal> (38字) 开展黑盒功能测试，验证系统功能稳定，修复测试 Bug，系统满足实际使用需求。
+[584] <Normal> (155字) 本系统弥补了传统人工规划依赖攻略、信息分散的短板，将大模型、检索增强生成与工具调用技术引入行程规划场景，形成需求解析、工具查询、知识增强、结果反思的完整闭环，轻量易部署，适合实际应用。项目开发过程巩固了 Python、FastAPI、前端工程与大模型应用等多项技能，也为后续进一步扩展多智能体协同规划打下基础。
+[596] <Normal> (4字) 参考文献
+[597] <Normal> (71字) 朱宇豪, 戴琳琳, 景辉, 等. 面向铁路出行的行程规划与推荐服务智能体研究[J]. 铁路计算机应用, 2026, 35(5): 30-35.
+[598] <Normal> (84字) 江志英, 黄震宇, 宋晨炜, 等. 基于思维代码的大语言模型多工具协调调用提示方法[J]. 北京化工大学学报(自然科学版), 2025, 52(3): 105-113.
+[599] <Normal> (61字) 郭先会, 张梦姣, 马军. 基于大语言模型的智能体构建综述[J]. 通信技术, 2024, 57(9): 873-879.
+[600] <Normal> (80字) 车万翔, 窦志成, 冯岩松, 等. 大模型时代的自然语言处理: 挑战、机遇与发展[J]. 中国科学: 信息科学, 2023, 53(9): 1645-1687.
+[601] <Normal> (62字) 朱俊仪, 朱尚明. 利用检索增强生成技术开发本地知识库应用[J]. 通信学报, 2024, 45(Z2): 242-247.
+[602] <Normal> (182字) WEI J, WANG X, SCHUURMANS D, et al. Chain-of-thought prompting elicits reasoning in large language models[C]//Advances in Neural Information Processing Systems 35. 2022: 24824-24837.
+[603] <Normal> (150字) YAO S, ZHAO J, YU D, et al. ReAct: synergizing reasoning and acting in language models[C]//International Conference on Learning Representations. 2023.
+[604] <Normal> (174字) LEWIS P, PEREZ E, PIKTUS A, et al. Retrieval-augmented generation for knowledge-intensive NLP tasks[C]//Advances in Neural Information Processing Systems 33. 2020: 9459-9474.
+[605] <Normal> (165字) SCHICK T, DWIVEDI-YU J, DESSI R, et al. Toolformer: language models can teach themselves to use tools[C]//Advances in Neural Information Processing Systems 36. 2023.
+[606] <Normal> (169字) QIN Y, LIANG S, YE Y, et al. ToolLLM: facilitating large language models to master 16000+ real-world APIs[C]//International Conference on Learning Representations. 2024.
+[607] <Normal> (134字) XIE J, ZHANG K, CHEN J, et al. TravelPlanner: a benchmark for real-world plannZing with language agents[J/OL]. arXiv:2402.01622, 2024.
+[608] <Normal> (144字) XU B, PENG Z, LEI B, et al. ReWOO: decoupling reasoning from observations for efficient augmented language models[J/OL]. arXiv:2305.18323, 2023.
+[609] <Normal> (141字) FIELDING R T. Architectural styles and the design of network-based software architectures[D]. Irvine: University of California, Irvine, 2000.
+[610] <Normal> (43字) 王珊, 萨师煊. 数据库系统概论[M]. 5版. 北京: 高等教育出版社, 2014.
+[612] <Normal> (4字) 致  谢
+[613] <Normal> (122字) 本次毕业设计《基于 FastAPI 和 Vue3 的交互式旅行规划智能体的设计与实现》是在指导老师全程悉心指导下完成的。从选题、文献查阅、需求分析，到框架搭建、代码开发与论文修改，张海良老师提出了许多宝贵意见，在此向我的指导老师致以诚挚的感谢。
+[614] <Normal> (90字) 在校学习期间，各位任课老师传授了前后端分离架构、数据库与软件工程等专业基础知识，为本次项目开发打下了扎实的理论基础；同学在开发遇到报错、格式调整时互相交流探讨，提供了很多实用思路。
+[615] <Normal> (77字) 在此，诚挚感谢张海良老师的指导，同时对所有授课教师、相互交流的同学致以感谢！毕业设计是大学学习的总结，今后我会继续深耕软件开发技术，不断提升自身专业能力。
+[618] <Normal> (6字) 姓名：成晓宇
+[620] <Normal> (7字) 2027年3月

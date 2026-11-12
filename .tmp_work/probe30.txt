@@ -1,0 +1,132 @@
+=== P5  runs=5
+  r0: t:'题 目：'
+  r1: t:' '
+  r2: t:'基于FastAPI和Vue3的智能旅行规划'
+  r3: t:'  '
+  r4: t:'      '
+
+=== P6  runs=1
+  r0: t:'系统的设计与实现                         '
+
+=== P8  runs=5
+  r0: t:'学院：'
+  r1: t:'            '
+  r2: t:'软件工程学院'
+  r3: t:'             '
+  r4: t:'      '
+
+=== P9  runs=9
+  r0: t:'专业：'
+  r1: t:'    '
+  r2: t:'软件工程技术'
+  r3: t:' '
+  r4: t:'    '
+  r5: t:'班级：'
+  r6: t:'   '
+  r7: t:'2303班'
+  r8: t:'             '
+
+=== P10  runs=8
+  r0: t:'学生姓名：'
+  r1: t:'    '
+  r2: t:'成晓宇'
+  r3: t:'        '
+  r4: t:'学号：'
+  r5: t:'     '
+  r6: t:'202301530333'
+  r7: t:'           '
+
+=== P11  runs=9
+  r0: t:'校内导师姓名：'
+  r1: t:'   '
+  r2: t:' 张海良'
+  r3: t:'  '
+  r4: t:' '
+  r5: t:'企业'
+  r6: t:'导师姓名：'
+  r7: t:'  '
+  r8: t:'        '
+
+=== P12  runs=4
+  r0: t:'完成日期：'
+  r1: t:'                                   '
+  r2: t:' '
+  r3: t:'   '
+
+=== P74  runs=1
+  r0: t:'课题名称'
+
+=== P75  runs=2
+  r0: t:'摘要：'
+  r1: t:'针对当前高校物品丢失依靠班级群、线下公告栏传播，信息零散、无审核流程、认领无记录、缺少失信管控等痛点，本文设计并实现一套基于 SpringBoot+Vue 的校园失物招领遗失管理系统。系统采用前后端分离架构，后端整合 MyBatis-Plus、Redis 缓存，前端使用 Vue3+Element Plus 开发，区分普通学生、校园管理员两类角色。学生可在线发布寻物、招领信息，留言咨询并发起物品认领；管理员负责信息审核、失信黑名单管理、校园公告发布、遗失数据可视化统计。系统实现信息发布、审核、留言、认领、失信管控、数据统计全业务闭环，简化校园遗失物品管理流程，提升师生寻物匹配效率。测试结果表明系统响应稳定、功能完整，可满足高校日常失物管理需求。'
+
+=== P76  runs=2
+  r0: t:'关键词：'
+  r1: t:' SpringBoot；Vue；校园失物招领；MyBatis-Plus；'
+
+=== P79  runs=11
+  r0: BR
+  r1: t:'（另一页）'
+  r2: t:'The Design of XXXX'
+  r3: t:'（'
+  r4: t:'题目英文，'
+  r5: t:' '
+  r6: t:'居中、Times New Roman、小二号、加粗、固定值22，段前段后各1行，'
+  r7: t:'可写2行'
+  r8: t:'，'
+  r9: t:'使用软回车Shift+回车 换行'
+  r10: t:'）'
+
+=== P80  runs=7
+  r0: t:'Abstract：'
+  r1: t:'（'
+  r2: t:'Abstract这个词用'
+  r3: t:'Times New Roman，顶头，小四，'
+  r4: t:'加粗，正文用Times New Roman，小四，行距22磅'
+  r5: t:'）'
+  r6: t:'Aiming at the pain points of information fragmentation, lack of audit process, unrecorded claim and lack of dishonesty control when lost items in colleges are spread through class groups and offline bulletin boards, this paper designs and implements a campus lost and found management system based on SpringBoot and Vue. The system adopts front-end and back-end separation architecture, the back-end integrates MyBatis-Plus and Redis cache, and the front-end is developed with Vue3 and Element Plus, distinguishing two roles: ordinary students and campus administrators. Students can publish lost and found information online, leave messages for consultation and initiate item claims; administrators are responsible for information review, dishonesty blacklist management, campus announcement release and visual statistics of lost data. The system realizes a full business closed loop of information release, review, message, claim, dishonesty control and data statistics, simplifies the management process of lost items on campus, and improves the matching efficiency of teachers and students looking for lost items. The test results show that the system has stable response and complete functions, which can meet the daily lost management needs of colleges.'
+
+=== P81  runs=8
+  r0: t:'Keywords:'
+  r1: t:'（Key words：'
+  r2: t:'这个词用'
+  r3: t:'Times New Roman，小四，加粗，顶头，与'
+  r4: t:'Abstract'
+  r5: t:'：内容空1行，'
+  r6: t:'正文用Times New Roman，小四，行距22磅）'
+  r7: t:'Keywords: SpringBoot; Vue; Campus Lost and Found; MyBatis-Plus;'
+
+=== P169  runs=4
+  r0: t:'（1）用户信息表：id是主键，表示用户的编号。username是用户名，password是密码，role为用户角色，用户角色有管理员和普通用户两种，设置为1为普通用户，设置为3则为管理员。数据库表结构如表'
+  r1: t:'3'
+  r2: t:'.1'
+  r3: t:'所示。'
+
+=== P170  runs=9
+  r0: t:'表'
+  r1: t:'3'
+  r2: t:'.'
+  r3: FLD:begin
+  r4: INSTR:' SEQ 表_3- \\* ARABIC '
+  r5: FLD:separate
+  r6: t:'1'
+  r7: FLD:end
+  r8: t:' 用户信息表'
+
+=== P171  runs=7
+  r0: t:'表'
+  r1: t:'3'
+  r2: t:'.'
+  r3: t:'2'
+  r4: t:' '
+  r5: t:'物品发布'
+  r6: t:'信息表'
+
+=== P308  runs=1
+  r0: t:'[1] 李梦琪。基于 SpringBoot 的校园失物招领平台设计 [J]. 信息技术，2023 (08):112-116.'
+
+=== P331  runs=1
+  r0: t:'XXX'
+
+=== P333  runs=1
+  r0: t:'XX年XX月'

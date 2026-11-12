@@ -1,0 +1,48 @@
+--- RELS ---
+rId9 -> theme/theme1.xml (theme)
+rId8 -> header3.xml (header)
+rId7 -> footer3.xml (footer)
+rId6 -> header2.xml (header)
+rId5 -> footer2.xml (footer)
+rId4 -> footer1.xml (footer)
+rId3 -> header1.xml (header)
+rId22 -> fontTable.xml (fontTable)
+rId21 -> numbering.xml (numbering)
+rId20 -> ../customXml/item1.xml (customXml)
+rId2 -> settings.xml (settings)
+rId19 -> media/image10.png (image)
+rId18 -> media/image9.png (image)
+rId17 -> media/image8.png (image)
+rId16 -> media/image7.png (image)
+rId15 -> media/image6.png (image)
+rId14 -> media/image5.png (image)
+rId13 -> media/image4.png (image)
+rId12 -> media/image3.png (image)
+rId11 -> media/image2.png (image)
+rId10 -> media/image1.png (image)
+rId1 -> styles.xml (styles)
+--- MEDIA ---
+word/media/
+word/media/image1.png
+word/media/image10.png
+word/media/image2.png
+word/media/image3.png
+word/media/image4.png
+word/media/image5.png
+word/media/image6.png
+word/media/image7.png
+word/media/image8.png
+word/media/image9.png
+--- PICTS ---
+P0 rids=['rId10'] runs=0:[pict|]
+P111 rids=[None] runs=0:[txt|技术层面，国内校园 Web 系统普遍使用] 1:[pict|]
+P139 rids=['rId11'] runs=0:[pict|] 1:[txt|普通用户模块分析：普通用户可以登录账号，]
+P158 rids=['rId12'] runs=0:[pict|] 1:[txt|本系统的设计分为前端和后端两个方面：前端] 2:[txt|3] 3:[txt|.1所示] 4:[txt|。]
+P160 rids=['rId13'] runs=0:[pict|] 1:[txt|根据普通用户的功能模块总结，] 2:[txt|总体] 3:[txt|流程图如图] 4:[txt|3] 5:[txt|.] 6:[txt|2] 7:[txt|所示] 8:[txt|。首先进入系统主页面后，游客可以浏览和搜]
+P166 rids=['rId14'] runs=0:[pict|] 1:[txt|图] 2:[txt|3.3] 3:[txt| ] 4:[txt|系统E-R] 5:[txt|图]
+P181 rids=['rId15'] runs=0:[pict|]
+P211 rids=['rId16'] runs=0:[pict|]
+P225 rids=['rId17'] runs=0:[pict|] 1:[txt|后台经典三栏布局：左侧深色侧边栏 #30]
+P235 rids=['rId18'] runs=0:[pict|] 1:[txt|表格展示全部待审核物品信息，操作栏通过、]
+P246 rids=['rId19'] runs=0:[pict|]
+P255 rids=['rId17'] runs=0:[pict|]
